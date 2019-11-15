@@ -10,37 +10,41 @@
     <link rel="stylesheet" href="node_modules/spectre.css/dist/spectre-exp.min.css">
     <link rel="stylesheet" href="node_modules/spectre.css/dist/spectre-icons.min.css">
     <link rel="stylesheet" href="node_modules/@material/elevation/dist/mdc.elevation.min.css">
+    <link rel="stylesheet" href="node_modules/typeface-ubuntu/index.css">
+    <link rel="stylesheet" href="css/css-utility/css-dist/cp-color.min.css">
+     <link rel="stylesheet" href="css/css-utility/css-dist/text-align.min.css">
+    <link rel="stylesheet" href="node_modules/material-icons-font/material-icons-font.css">
     <title>Carlos Illesca - Developer</title>
-    <style>
-      .gray{
-        background-color:#455A64;
-        color:rgba(255, 255, 255, .87);
-      }
-
-    .avatar.avatar-cv{
-       font-size: 1.6rem;
-       height: 6.2rem;
-       width: 6.2rem;
-    }
-
-    </style>
+    <link rel="stylesheet" href="css/style-cv.css">
   </head>
   <body style="height:100% !important;min-height:100%;">
    
-  <div class="row animated fadeIn" style="height:100% !important;">
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 center-xs gray mdc-elevation--z2" >  
-          <figure class="avatar avatar-cv">
-          <img src="https://ayudayasesoriasocial.com/wp-content/uploads/2019/05/20190524_131900-e1558718549538-150x150.jpg" alt="...">
+  <div class="row" style="height:100% !important;">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 center-xs mdc-elevation--z2 animated fadeIn lightgreen400" >  
+          <figure class="avatar avatar-cv ">
+          <img draggable="false" ondragstart="return false;" src="https://ayudayasesoriasocial.com/wp-content/uploads/2019/05/20190524_131900-e1558718549538-150x150.jpg" class="mdc-elevation--z1" >
           </figure>
           <h3>Sobre mí</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-          <h3>Datos de Contacto</h3>
-          <ul>
-            <li>+ 56 9 30383591</li>
-            <li>c4rl0sill3sc4@gmail.com</li>
+          <p class="taj" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          
+          <h3>Datos de Contacto</h3>  
+          <div class="row">
+            <div class=""></div>
+          </div>
+          
+          <ul class="ci-list lime800 s-rounded" >
+            
+            <li class="row middle-xs ">
+                  <div class="box"><i class="material-icons">phone</i></div>
+                  <div class="box"><span style="display:block;margin-bottom:8px;">+56 9 3038 3591</span></div>
+            </li>
+            <li class="row middle-xs ">
+                  <div class="box"><i class="material-icons">email</i></div>
+                  <div class="box"><span style="display:block;margin-bottom:8px;">c4rl0sill3sc4@gmail.com</span></div>
+            </li>
           </ul>
           <h3>Habilidades</h3>
-          <ul>
+          <ul class="ci-list">
             <li>Wordpress 90%</li>
             <li>html 99%</li>
             <li>Javascript 99%</li>
@@ -48,9 +52,7 @@
           </ul>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-9 center-xs" style="background-color:#FAFAFA;">
-          <div class="col-xs-12 center-xs" >
-            <h1 class="gray s-rounded mdc-elevation--z2" >Carlos Enrique Illesca Monsalve</h1>
-          </div>
+       
       </div>
   </div>
    
