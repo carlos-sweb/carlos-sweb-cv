@@ -10,6 +10,10 @@
    width: 6.2rem;
 }
 
+.text-right-icon{
+  display:block;margin-bottom:8px;
+}
+
 *{
  font-family: 'Ubuntu';
   -webkit-touch-callout: none; /* iOS Safari */
