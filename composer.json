@@ -1,0 +1,13 @@
+{
+    "name": "daisy/carlos-sweb-cv",
+    "authors": [
+        {
+            "name": "carlos-sweb",
+            "email": "c4rl0sill3sc4@gmail.com"
+        }
+    ],
+    "require": {
+    	"seld/jsonlint":"*",
+        "symfony/yaml":"^5.0"
+    }
+}

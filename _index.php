@@ -1,4 +1,28 @@
 <?php 
+
+	ini_set('display_errors', 1);
+
+	ini_set('display_startup_errors', 1);
+
+	error_reporting(E_ALL);
+
+ 	include_once 'vendor/autoload.php';
+
+ 	use Symfony\Component\Yaml\Yaml;
+ 	use Symfony\Component\Yaml\Exception\ParseException;
+
+ 	$skills = null;
+
+	try{
+
+	    $skills = $value = Yaml::parseFile('yaml/skills.yaml');
+
+	}catch( ParseException $exception ){
+
+	    printf('Unable to parse the YAML string: %s', $exception->getMessage());
+	}
+ 
+
  
  $title = 'Carlos Illesca - Developer';	
  
@@ -24,13 +48,10 @@
  	'email'=>'c4rl0sill3sc4@gmail.com'
  ];
 
- $json_skills =  file_get_contents('json/skills.json');
+$jsonFile = 'json/skills.json'; 
 
- print_r(  json_encode($json_skills)  );
 
-$skills = [];
-
- ?>
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,14 +62,13 @@ $skills = [];
 <?php endforeach; ?>
 	<title><?=$title?></title>
 </head>
-<body>
+<body class="container" >
 
-
-	<ul>
-			<?php foreach($skills as $skill): ?>
-				<span><?=$skill?></span>
-			<?php endforeach; ?>
-	</ul>
+	<div class="row" style="height:100% !important;min-height:100%;" >
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 center-xs mdc-elevation--z2 animated fadeIn bluegray600"  >
+			a
+		</div>
+	</div>
 	
 </body>
 </html>
