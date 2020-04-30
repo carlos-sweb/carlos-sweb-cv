@@ -24,6 +24,7 @@
     "material-icons-font": "^2.0.0",
     "normalize.css": "^8.0.1",
     "spectre.css": "^0.5.8",
-    "typeface-ubuntu": "0.0.65"
+    "typeface-ubuntu": "0.0.65",
+    "zepto": "^1.2.0"
   }
 }
