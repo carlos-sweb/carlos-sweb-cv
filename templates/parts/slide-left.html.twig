@@ -1,0 +1,77 @@
+<div class="row center-xs middle-xs">
+    <div class="box" >
+      <figure class="avatar avatar-cv bluegray600">
+    <img draggable="false" ondragstart="return false;" src="carlos-sweb-profile.jpeg" class="mdc-elevation--z1" >
+    </figure>
+    </div>
+</div>
+
+
+ <div class="row">
+              <div class="col-xs-12 ">
+                 <h3>Sobre mí</h3>
+              </div>
+              <div class="col-xs-12 ">
+                <p class="taj" style="padding-left:25px;padding-right:25px;" >
+                  <!--Here my description-->
+                </p>
+              </div>
+          </div>
+          <!--close seccion title about-->
+          <!--open seccion title contact-->
+          <div class="row" style="padding-bottom:20px;">
+              <div class="col-xs-12 ">
+                  <h3>Datos de Contacto</h3> 
+              </div>    
+          </div>
+          <!--close seccion title contact-->
+          <!--open-->
+          <div class="row">
+              <div class="col-xs-offset-1 col-xs-2 end-xs ">
+                  <div class="box">
+                     <i class="material-icons">phone</i>
+                  </div>
+              </div>
+              <div class="col-xs start-xs">
+                  <div class="box">
+                      <span class="text-right-icon">{{ profile.phone }}</span>
+                  </div>
+              </div>
+          </div>
+          <!--close-->
+          <!--open-->
+          <div class="row">
+              <div class="col-xs-offset-1 col-xs-2 end-xs ">
+                  <div class="box">
+                     <i class="material-icons">email</i>
+                  </div>
+              </div>
+              <div class="col-xs start-xs">
+                  <div class="box">
+                      <span class="text-right-icon">{{ profile.email }}</span>
+                  </div>
+              </div>
+          </div>
+          <!--close-->     
+          <!--open-->
+          <div class="row" style="padding-top:20px;padding-bottom:20px;">
+              <div class="col-xs-12 ">
+                    <h3>Habilidades</h3>
+              </div>    
+          </div>
+          <!--close-->
+          <!--open-->
+          {% for skill in skills %}
+          <div class="row">
+              <div class="col-xs-offset-1 col-xs-2 end-xs ">
+                  <div class="box">
+                     <i class="material-icons">label</i><!--brightness_1-->
+                  </div>
+              </div>
+              <div class="col-xs start-xs">
+                  <div class="box">
+                      <span class="text-right-icon">{{ skill }}</span>
+                  </div>
+              </div>
+          </div>
+      {% endfor %}

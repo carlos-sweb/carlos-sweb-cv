@@ -4,7 +4,7 @@
   "description": "\"# carlos-sweb-cv\"",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "create": "minify _index.html -o index.html && cp -r index.html public/index.html"
   },
   "repository": {
     "type": "git",

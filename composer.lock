@@ -1,11 +1,68 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "880413a6af0bf2b49dd1b846894cf2f2",
+    "content-hash": "4f1d1963eede5a052fb79dae597e4422",
     "packages": [
+        {
+            "name": "mrclay/jsmin-php",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrclay/jsmin-php.git",
+                "reference": "bb05febc9440852d39899255afd5569b7f21a72c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrclay/jsmin-php/zipball/bb05febc9440852d39899255afd5569b7f21a72c",
+                "reference": "bb05febc9440852d39899255afd5569b7f21a72c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JSMin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stephen Clay",
+                    "email": "steve@mrclay.org",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Ryan Grove",
+                    "email": "ryan@wonko.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides a modified port of Douglas Crockford's jsmin.c, which removes unnecessary whitespace from JavaScript files.",
+            "homepage": "https://github.com/mrclay/jsmin-php/",
+            "keywords": [
+                "compress",
+                "jsmin",
+                "minify"
+            ],
+            "support": {
+                "email": "minify@googlegroups.com",
+                "issues": "https://github.com/mrclay/jsmin-php/issues",
+                "source": "https://github.com/mrclay/jsmin-php/tree/master"
+            },
+            "time": "2018-12-06T15:03:38+00:00"
+        },
         {
             "name": "seld/jsonlint",
             "version": "1.7.2",
@@ -54,6 +111,142 @@
                 "validator"
             ],
             "time": "2019-10-24T14:27:39+00:00"
+        },
+        {
+            "name": "symfony/deprecation-contracts",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/deprecation-contracts.git",
+                "reference": "5fa56b4074d1ae755beb55617ddafe6f5d78f665"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/5fa56b4074d1ae755beb55617ddafe6f5d78f665",
+                "reference": "5fa56b4074d1ae755beb55617ddafe6f5d78f665",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "function.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "A generic function and convention to trigger deprecation notices",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/deprecation-contracts/tree/master"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-09-07T11:33:47+00:00"
+        },
+        {
+            "name": "symfony/options-resolver",
+            "version": "v5.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/options-resolver.git",
+                "reference": "87a2a4a766244e796dd9cb9d6f58c123358cd986"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/87a2a4a766244e796dd9cb9d6f58c123358cd986",
+                "reference": "87a2a4a766244e796dd9cb9d6f58c123358cd986",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/deprecation-contracts": "^2.1",
+                "symfony/polyfill-php73": "~1.0",
+                "symfony/polyfill-php80": "^1.15"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\OptionsResolver\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony OptionsResolver Component",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "config",
+                "configuration",
+                "options"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/options-resolver/tree/v5.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-10-24T12:08:07+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -114,6 +307,231 @@
             "time": "2020-02-27T09:26:54+00:00"
         },
         {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.20.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "39d483bdf39be819deabf04ec872eb0b2410b531"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/39d483bdf39be819deabf04ec872eb0b2410b531",
+                "reference": "39d483bdf39be819deabf04ec872eb0b2410b531",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.20-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2020-10-23T14:02:19+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php73",
+            "version": "v1.20.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php73.git",
+                "reference": "8ff431c517be11c78c48a39a66d37431e26a6bed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/8ff431c517be11c78c48a39a66d37431e26a6bed",
+                "reference": "8ff431c517be11c78c48a39a66d37431e26a6bed",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.20-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php73\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.20.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-10-23T14:02:19+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php80",
+            "version": "v1.20.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php80.git",
+                "reference": "e70aa8b064c5b72d3df2abd5ab1e90464ad009de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/e70aa8b064c5b72d3df2abd5ab1e90464ad009de",
+                "reference": "e70aa8b064c5b72d3df2abd5ab1e90464ad009de",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.20-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ion Bazan",
+                    "email": "ion.bazan@gmail.com"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.20.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-10-23T14:02:19+00:00"
+        },
+        {
             "name": "symfony/yaml",
             "version": "v5.0.7",
             "source": {
@@ -171,6 +589,222 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2020-03-30T11:42:42+00:00"
+        },
+        {
+            "name": "tubalmartin/cssmin",
+            "version": "v4.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port.git",
+                "reference": "3cbf557f4079d83a06f9c3ff9b957c022d7805cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tubalmartin/YUI-CSS-compressor-PHP-port/zipball/3cbf557f4079d83a06f9c3ff9b957c022d7805cf",
+                "reference": "3cbf557f4079d83a06f9c3ff9b957c022d7805cf",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "cogpowered/finediff": "0.3.*",
+                "phpunit/phpunit": "4.8.*"
+            },
+            "bin": [
+                "cssmin"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "tubalmartin\\CssMin\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Túbal Martín",
+                    "homepage": "http://tubalmartin.me/"
+                }
+            ],
+            "description": "A PHP port of the YUI CSS compressor",
+            "homepage": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port",
+            "keywords": [
+                "compress",
+                "compressor",
+                "css",
+                "cssmin",
+                "minify",
+                "yui"
+            ],
+            "support": {
+                "issues": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port/issues",
+                "source": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port"
+            },
+            "time": "2018-01-15T15:26:51+00:00"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "b02fa41f3783a2616eccef7b92fbc2343ffed737"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/b02fa41f3783a2616eccef7b92fbc2343ffed737",
+                "reference": "b02fa41f3783a2616eccef7b92fbc2343ffed737",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-ctype": "^1.8",
+                "symfony/polyfill-mbstring": "^1.3"
+            },
+            "require-dev": {
+                "psr/container": "^1.0",
+                "symfony/phpunit-bridge": "^4.4.9|^5.0.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Twig\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Twig Team",
+                    "role": "Contributors"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "https://twig.symfony.com",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2020-10-27T19:28:23+00:00"
+        },
+        {
+            "name": "wa72/html-pretty-min",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wasinger/html-pretty-min.git",
+                "reference": "3b4eca03559dab8c178ec7a80f3043c279f5e90e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wasinger/html-pretty-min/zipball/3b4eca03559dab8c178ec7a80f3043c279f5e90e",
+                "reference": "3b4eca03559dab8c178ec7a80f3043c279f5e90e",
+                "shasum": ""
+            },
+            "require": {
+                "mrclay/jsmin-php": "^2.3",
+                "php": ">=5.4",
+                "symfony/options-resolver": ">=2.3",
+                "tubalmartin/cssmin": "^4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4|^5|^6|^7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Wa72\\HtmlPrettymin\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Singer",
+                    "email": "singer@webagentur72.de"
+                }
+            ],
+            "description": "HTML minifier and indenter that works on the DOM tree",
+            "support": {
+                "issues": "https://github.com/wasinger/html-pretty-min/issues",
+                "source": "https://github.com/wasinger/html-pretty-min/tree/master"
+            },
+            "time": "2018-03-08T20:39:03+00:00"
+        },
+        {
+            "name": "zaininnari/html-minifier",
+            "version": "0.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zaininnari/html-minifier.git",
+                "reference": "5b94d85705626f9bb33b7c667bc4400088ed4ece"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zaininnari/html-minifier/zipball/5b94d85705626f9bb33b7c667bc4400088ed4ece",
+                "reference": "5b94d85705626f9bb33b7c667bc4400088ed4ece",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "zz": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The BSD 3-Clause License"
+            ],
+            "authors": [
+                {
+                    "name": "Google inc",
+                    "homepage": "http://www.chromium.org/blink",
+                    "role": "Author"
+                },
+                {
+                    "name": "zaininnari",
+                    "homepage": "https://github.com/zaininnari/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Blink HTMLTokenizer ported to PHP.",
+            "homepage": "https://github.com/zaininnari/html-minifier",
+            "keywords": [
+                "Blink",
+                "HTML minify",
+                "php"
+            ],
+            "time": "2015-08-18T14:10:55+00:00"
         }
     ],
     "packages-dev": [],
@@ -180,5 +814,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }

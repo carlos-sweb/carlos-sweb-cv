@@ -8,6 +8,9 @@
     ],
     "require": {
     	"seld/jsonlint":"*",
-        "symfony/yaml":"^5.0"
+        "symfony/yaml":"^5.0",
+        "twig/twig": "^3.0",
+        "zaininnari/html-minifier": "^0.4.2",
+        "wa72/html-pretty-min": "^0.2.0"
     }
 }

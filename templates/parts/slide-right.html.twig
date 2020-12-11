@@ -1,0 +1,87 @@
+<div class="row center-xs" >
+  <div class="col-xs" style="padding-top:22px;" >
+    <h1>{{ profile.name }}</h1>
+  </div>
+</div>
+<div class="divider"></div>
+<div class="row">
+  <div class="col-xs-12 col-xs-offset-1">
+      <div class="box"><h3 style="text-decoration:underline;">Experiencia Laboral</h3></div>    
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12 col-xs-offset-1">
+<!--time line-->
+<div class="timeline">  
+  {% for employment in employments %}		
+  <div class="timeline-item" >
+    
+    {% if loop.index == 1 %}
+    <div class="timeline-left"><a class="timeline-icon"></a></div>
+    {% else %}
+    <div class="timeline-left">
+      <a class="timeline-icon icon-lg" href="#timeline-example-2">
+        <i class="icon icon-check"></i>
+      </a>
+    </div>
+    {% endif %}
+
+    <div class="timeline-content">    
+      <!--Descripción de trabajo-->  
+      <div class="divider"></div>  
+      <p class="tile-subtitle">{{ employment.date }}</p>
+      <p class="tile-subtitle"><strong>Empresa</strong>:</p>
+      <p class="tile-subtitle" >{{ employment.company }}</p>
+      <p class="tile-subtitle"><strong>Cargo</strong>:</p>
+      <p class="tile-subtitle">{{ employment.job }}</p>
+      <p class="tile-subtitle"><strong>Descripción</strong>:</p>
+      <p class="tile-subtitle col-xs-10">{{ employment.description }}</p>     
+      <!--Descripción de trabajo-->      
+    </div>
+  </div>
+{% endfor %}
+</div>
+<!--timeline-->
+</div><!--row-->
+</div><!--column-->
+<!--time line end-->
+<div class="divider"></div>
+<div class="row">
+  <div class="col-xs-12 col-xs-offset-1">
+      <div class="box"><h3 style="text-decoration:underline;">Educación Académica</h3></div>    
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12 col-xs-offset-1">
+<!--time line-->
+<div class="timeline">  
+  {% for institute in education %}   
+  <div class="timeline-item">
+    
+    {% if loop.index == 1 %}
+    <div class="timeline-left"><a class="timeline-icon"></a></div>
+    {% else %}
+    <div class="timeline-left">
+      <a class="timeline-icon icon-lg" href="#timeline-example-2">
+        <i class="icon icon-check"></i>
+      </a>
+    </div>
+    {% endif %}
+
+    <div class="timeline-content">    
+      <!--Descripción--> 
+      <div class="divider"></div>   
+      <p class="tile-subtitle" >{{ institute.date }}</p>
+      <p class="tile-subtitle" ><strong>Institución Acádemica</strong>:</p>
+      <p class="tile-subtitle" >{{ institute.name }}</p>
+      <p class="tile-subtitle" ><strong>Carrera</strong>:</p>
+      <p class="tile-subtitle" >{{ institute.job }}</p>
+      <!--Descripción-->     
+    </div>
+  </div>
+{% endfor %}
+</div>
+<!--timeline-->
+</div><!--row-->
+</div><!--column-->
+<!--time line end-->
