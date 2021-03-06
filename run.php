@@ -33,9 +33,10 @@
 
 	$output = $pm->load($html)->minify()->saveHtml();
 
-
 	$htmloutput = fopen(__DIR__."/public/index.html", "wb");
+
 	fwrite($htmloutput,$output);
+
 	fclose($htmloutput);
 
 
