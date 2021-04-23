@@ -6,7 +6,7 @@
 - node_modules/spectre.css/dist/spectre-icons.min.css
 - node_modules/@material/elevation/dist/mdc.elevation.min.css
 - node_modules/typeface-ubuntu/index.css
-- css/css-utility/css-dist/cp-color.min.css
-- css/css-utility/css-dist/text-align.min.css
+- css/cp-color.min.css
+- css/text-align.min.css
 - node_modules/material-icons-font/material-icons-font.css
 - css/style-cv.css

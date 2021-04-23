@@ -1,7 +1,4 @@
-<?php 
-	/*ini_set('display_errors', 1);
-	ini_set('display_startup_errors', 1);
-	error_reporting(E_ALL);*/
+<?php
 
 	function minifer($code){
         return preg_replace(
@@ -49,8 +46,6 @@
 			'employments' => $employments,
 			'education' => $education
 		]);
-
-	
 
 	$output =  minifer( $html ); //$pm->load( $html )->minify()->saveHtml();
 
