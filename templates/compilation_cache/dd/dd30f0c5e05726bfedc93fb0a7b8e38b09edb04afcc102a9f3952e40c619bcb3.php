@@ -40,6 +40,23 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
         // line 3
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["profile"] ?? null), "name", [], "any", false, false, false, 3), "html", null, true);
         echo "</h1>
+
+
+<div class=\"dropdown\">
+  <a href=\"#\" class=\"btn btn-link dropdown-toggle\" tabindex=\"0\">
+    <img style=\"width:24px;\" src=\"es.svg\" />&nbsp;Español<i class=\"icon icon-caret\"></i>
+  </a>
+  <!-- menu component -->
+  <ul class=\"menu\">
+    <li class=\"menu-item\">
+    <a href=\"/en.html\" style=\"float:left;width:100%;text-align:left;\">
+      <img src=\"en.svg\" style=\"width:24px;\" />&nbsp;Ingles
+    </a>
+  </li>
+  </ul>
+</div>
+
+
   </div>
 </div>
 <div class=\"divider\"></div>
@@ -53,7 +70,7 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
 <!--time line-->
 <div class=\"timeline\">  
   ";
-        // line 16
+        // line 33
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["employments"] ?? null));
         $context['loop'] = [
@@ -74,13 +91,13 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
   <div class=\"timeline-item\" >
     
     ";
-            // line 19
-            if ((0 === twig_compare(twig_get_attribute($this->env, $this->source, $context["loop"], "index", [], "any", false, false, false, 19), 1))) {
-                // line 20
+            // line 36
+            if ((0 === twig_compare(twig_get_attribute($this->env, $this->source, $context["loop"], "index", [], "any", false, false, false, 36), 1))) {
+                // line 37
                 echo "    <div class=\"timeline-left\"><a class=\"timeline-icon\"></a></div>
     ";
             } else {
-                // line 22
+                // line 39
                 echo "    <div class=\"timeline-left\">
       <a class=\"timeline-icon icon-lg\" href=\"#timeline-example-2\">
         <i class=\"icon icon-check\"></i>
@@ -88,29 +105,29 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
     </div>
     ";
             }
-            // line 28
+            // line 45
             echo "
     <div class=\"timeline-content\">    
       <!--Descripción de trabajo-->  
       <div class=\"divider\"></div>  
       <p class=\"tile-subtitle\">";
-            // line 32
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["employment"], "date", [], "any", false, false, false, 32), "html", null, true);
+            // line 49
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["employment"], "date", [], "any", false, false, false, 49), "html", null, true);
             echo "</p>
       <p class=\"tile-subtitle\"><strong>Empresa</strong>:</p>
       <p class=\"tile-subtitle\" >";
-            // line 34
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["employment"], "company", [], "any", false, false, false, 34), "html", null, true);
+            // line 51
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["employment"], "company", [], "any", false, false, false, 51), "html", null, true);
             echo "</p>
       <p class=\"tile-subtitle\"><strong>Cargo</strong>:</p>
       <p class=\"tile-subtitle\">";
-            // line 36
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["employment"], "job", [], "any", false, false, false, 36), "html", null, true);
+            // line 53
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["employment"], "job", [], "any", false, false, false, 53), "html", null, true);
             echo "</p>
       <p class=\"tile-subtitle\"><strong>Descripción</strong>:</p>
       <p class=\"tile-subtitle col-xs-10\">";
-            // line 38
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["employment"], "description", [], "any", false, false, false, 38), "html", null, true);
+            // line 55
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["employment"], "description", [], "any", false, false, false, 55), "html", null, true);
             echo "</p>     
       <!--Descripción de trabajo-->      
     </div>
@@ -128,7 +145,7 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['employment'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 43
+        // line 60
         echo "</div>
 <!--timeline-->
 </div><!--row-->
@@ -145,7 +162,7 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
 <!--time line-->
 <div class=\"timeline\">  
   ";
-        // line 58
+        // line 75
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["education"] ?? null));
         $context['loop'] = [
@@ -166,13 +183,13 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
   <div class=\"timeline-item\">
     
     ";
-            // line 61
-            if ((0 === twig_compare(twig_get_attribute($this->env, $this->source, $context["loop"], "index", [], "any", false, false, false, 61), 1))) {
-                // line 62
+            // line 78
+            if ((0 === twig_compare(twig_get_attribute($this->env, $this->source, $context["loop"], "index", [], "any", false, false, false, 78), 1))) {
+                // line 79
                 echo "    <div class=\"timeline-left\"><a class=\"timeline-icon\"></a></div>
     ";
             } else {
-                // line 64
+                // line 81
                 echo "    <div class=\"timeline-left\">
       <a class=\"timeline-icon icon-lg\" href=\"#timeline-example-2\">
         <i class=\"icon icon-check\"></i>
@@ -180,24 +197,24 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
     </div>
     ";
             }
-            // line 70
+            // line 87
             echo "
     <div class=\"timeline-content\">    
       <!--Descripción--> 
       <div class=\"divider\"></div>   
       <p class=\"tile-subtitle\" >";
-            // line 74
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["institute"], "date", [], "any", false, false, false, 74), "html", null, true);
+            // line 91
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["institute"], "date", [], "any", false, false, false, 91), "html", null, true);
             echo "</p>
       <p class=\"tile-subtitle\" ><strong>Institución Acádemica</strong>:</p>
       <p class=\"tile-subtitle\" >";
-            // line 76
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["institute"], "name", [], "any", false, false, false, 76), "html", null, true);
+            // line 93
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["institute"], "name", [], "any", false, false, false, 93), "html", null, true);
             echo "</p>
       <p class=\"tile-subtitle\" ><strong>Carrera</strong>:</p>
       <p class=\"tile-subtitle\" >";
-            // line 78
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["institute"], "job", [], "any", false, false, false, 78), "html", null, true);
+            // line 95
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["institute"], "job", [], "any", false, false, false, 95), "html", null, true);
             echo "</p>
       <!--Descripción-->     
     </div>
@@ -215,7 +232,7 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['institute'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 83
+        // line 100
         echo "</div>
 <!--timeline-->
 </div><!--row-->
@@ -235,7 +252,7 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
 
     public function getDebugInfo()
     {
-        return array (  219 => 83,  200 => 78,  195 => 76,  190 => 74,  184 => 70,  176 => 64,  172 => 62,  170 => 61,  149 => 58,  132 => 43,  113 => 38,  108 => 36,  103 => 34,  98 => 32,  92 => 28,  84 => 22,  80 => 20,  78 => 19,  57 => 16,  41 => 3,  37 => 1,);
+        return array (  236 => 100,  217 => 95,  212 => 93,  207 => 91,  201 => 87,  193 => 81,  189 => 79,  187 => 78,  166 => 75,  149 => 60,  130 => 55,  125 => 53,  120 => 51,  115 => 49,  109 => 45,  101 => 39,  97 => 37,  95 => 36,  74 => 33,  41 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -243,6 +260,23 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
         return new Source("<div class=\"row center-xs\" >
   <div class=\"col-xs\" style=\"padding-top:22px;\" >
     <h1>{{ profile.name }}</h1>
+
+
+<div class=\"dropdown\">
+  <a href=\"#\" class=\"btn btn-link dropdown-toggle\" tabindex=\"0\">
+    <img style=\"width:24px;\" src=\"es.svg\" />&nbsp;Español<i class=\"icon icon-caret\"></i>
+  </a>
+  <!-- menu component -->
+  <ul class=\"menu\">
+    <li class=\"menu-item\">
+    <a href=\"/en.html\" style=\"float:left;width:100%;text-align:left;\">
+      <img src=\"en.svg\" style=\"width:24px;\" />&nbsp;Ingles
+    </a>
+  </li>
+  </ul>
+</div>
+
+
   </div>
 </div>
 <div class=\"divider\"></div>
