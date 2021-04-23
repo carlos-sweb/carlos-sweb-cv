@@ -3,13 +3,25 @@
 	ini_set('display_startup_errors', 1);
 	error_reporting(E_ALL);*/
 
+	function minifer($code){
+        return preg_replace(
+          array(
+              '/ {2,}/',
+              '/<!--.*?-->|\t|(?:\r?\n[ \t]*)+/s'
+          ),
+          array(
+              ' ',
+              ''
+          ),
+          $code
+        );
+  	}
+
 	include_once 'vendor/autoload.php';
 
 	use Symfony\Component\Yaml\Yaml;	
 	
-	use Symfony\Component\Yaml\Exception\ParseException;
-	
-	use Wa72\HtmlPrettymin\PrettyMin;
+	use Symfony\Component\Yaml\Exception\ParseException;		
 
 	$templateDir = __DIR__."/templates";
 
@@ -38,22 +50,7 @@
 			'education' => $education
 		]);
 
-	$pm = new PrettyMin();
-
-
-	function minifer($code){
-        return preg_replace(
-          array(
-              '/ {2,}/',
-              '/<!--.*?-->|\t|(?:\r?\n[ \t]*)+/s'
-          ),
-          array(
-              ' ',
-              ''
-          ),
-          $code
-        );
-  	}
+	
 
 	$output =  minifer( $html ); //$pm->load( $html )->minify()->saveHtml();
 
