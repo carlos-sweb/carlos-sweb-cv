@@ -16,17 +16,17 @@
 
 	include_once 'vendor/autoload.php';
 
-	use Symfony\Component\Yaml\Yaml;	
-	
-	use Symfony\Component\Yaml\Exception\ParseException;		
+	use Symfony\Component\Yaml\Yaml;
+
+	use Symfony\Component\Yaml\Exception\ParseException;
 
 	$templateDir = __DIR__."/templates";
 
 	$loader = new \Twig\Loader\FilesystemLoader($templateDir);
 
-	$twig = new \Twig\Environment($loader, [	
+	$twig = new \Twig\Environment($loader, [
 		'debug' => true,
-		'cache' => __DIR__.'/templates/compilation_cache',	
+		'cache' => __DIR__.'/templates/compilation_cache',
 	]);
 
 	$links       = Yaml::parseFile('yaml/links.yaml');
@@ -39,7 +39,7 @@
 
 	$education   = Yaml::parseFile('yaml/education.yaml');
 
-	$html = $twig->render('home.html.twig', [ 
+	$html = $twig->render('home.html.twig', [
 			'links' => $links,
 			'profile' => $profile,
 			'skills' => $skills,
@@ -50,6 +50,7 @@
 	$output =  minifer( $html ); //$pm->load( $html )->minify()->saveHtml();
 
 	$htmloutput = fopen(__DIR__."/public/index.html", "wb");
+	$htmloutput = fopen(__DIR__."/public/en.html", "wb");
 
 	fwrite($htmloutput,$output);
 
