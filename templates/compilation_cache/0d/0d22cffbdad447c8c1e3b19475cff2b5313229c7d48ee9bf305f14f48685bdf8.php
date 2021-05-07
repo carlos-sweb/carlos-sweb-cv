@@ -12,8 +12,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* parts/slide-right.html.twig */
-class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248763b0 extends Template
+/* parts/es/slide-right.html.twig */
+class __TwigTemplate_bbb2d0cb5815e25f9ae12aae6ef002b7faf04e223d886de9d3ee062106e55794 extends Template
 {
     private $source;
     private $macros = [];
@@ -62,10 +62,7 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
 <div class=\"divider\"></div>
 <div class=\"row\">
   <div class=\"col-xs-12 col-xs-offset-1\">
-      <div class=\"box\"><h3 style=\"text-decoration:underline;\">";
-        // line 26
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["titles"] ?? null), "title_right1", [], "any", false, false, false, 26), "html", null, true);
-        echo "</h3></div>
+      <div class=\"box\"><h3 style=\"text-decoration:underline;\">Experiencia Laboral</h3></div>
   </div>
 </div>
 <div class=\"row\">
@@ -117,26 +114,17 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
             // line 49
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["employment"], "date", [], "any", false, false, false, 49), "html", null, true);
             echo "</p>
-      <p class=\"tile-subtitle\"><strong>";
-            // line 50
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["titles"] ?? null), "title_right4", [], "any", false, false, false, 50), "html", null, true);
-            echo "</strong>:</p>
+      <p class=\"tile-subtitle\"><strong>Empresa</strong>:</p>
       <p class=\"tile-subtitle\" >";
             // line 51
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["employment"], "company", [], "any", false, false, false, 51), "html", null, true);
             echo "</p>
-      <p class=\"tile-subtitle\"><strong>";
-            // line 52
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["titles"] ?? null), "title_right5", [], "any", false, false, false, 52), "html", null, true);
-            echo "</strong>:</p>
+      <p class=\"tile-subtitle\"><strong>Cargo</strong>:</p>
       <p class=\"tile-subtitle\">";
             // line 53
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["employment"], "job", [], "any", false, false, false, 53), "html", null, true);
             echo "</p>
-      <p class=\"tile-subtitle\"><strong>";
-            // line 54
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["titles"] ?? null), "title_right6", [], "any", false, false, false, 54), "html", null, true);
-            echo "</strong>:</p>
+      <p class=\"tile-subtitle\"><strong>Descripción</strong>:</p>
       <p class=\"tile-subtitle col-xs-10\">";
             // line 55
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["employment"], "description", [], "any", false, false, false, 55), "html", null, true);
@@ -166,10 +154,7 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
 <div class=\"divider\"></div>
 <div class=\"row\">
   <div class=\"col-xs-12 col-xs-offset-1\">
-      <div class=\"box\"><h3 style=\"text-decoration:underline;\">";
-        // line 68
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["titles"] ?? null), "title_right2", [], "any", false, false, false, 68), "html", null, true);
-        echo "</h3></div>
+      <div class=\"box\"><h3 style=\"text-decoration:underline;\">Educación Académica</h3></div>
   </div>
 </div>
 <div class=\"row\">
@@ -258,7 +243,7 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
 
     public function getTemplateName()
     {
-        return "parts/slide-right.html.twig";
+        return "parts/es/slide-right.html.twig";
     }
 
     public function isTraitable()
@@ -268,7 +253,7 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
 
     public function getDebugInfo()
     {
-        return array (  251 => 100,  232 => 95,  227 => 93,  222 => 91,  216 => 87,  208 => 81,  204 => 79,  202 => 78,  198 => 76,  181 => 75,  171 => 68,  161 => 60,  142 => 55,  138 => 54,  134 => 53,  130 => 52,  126 => 51,  122 => 50,  118 => 49,  112 => 45,  104 => 39,  100 => 37,  98 => 36,  94 => 34,  77 => 33,  67 => 26,  41 => 3,  37 => 1,);
+        return array (  236 => 100,  217 => 95,  212 => 93,  207 => 91,  201 => 87,  193 => 81,  189 => 79,  187 => 78,  183 => 76,  166 => 75,  149 => 60,  130 => 55,  125 => 53,  120 => 51,  115 => 49,  109 => 45,  101 => 39,  97 => 37,  95 => 36,  91 => 34,  74 => 33,  41 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -298,7 +283,7 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
 <div class=\"divider\"></div>
 <div class=\"row\">
   <div class=\"col-xs-12 col-xs-offset-1\">
-      <div class=\"box\"><h3 style=\"text-decoration:underline;\">{{titles.title_right1}}</h3></div>
+      <div class=\"box\"><h3 style=\"text-decoration:underline;\">Experiencia Laboral</h3></div>
   </div>
 </div>
 <div class=\"row\">
@@ -322,11 +307,11 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
       <!--Descripción de trabajo-->
       <div class=\"divider\"></div>
       <p class=\"tile-subtitle\">{{ employment.date }}</p>
-      <p class=\"tile-subtitle\"><strong>{{titles.title_right4}}</strong>:</p>
+      <p class=\"tile-subtitle\"><strong>Empresa</strong>:</p>
       <p class=\"tile-subtitle\" >{{ employment.company }}</p>
-      <p class=\"tile-subtitle\"><strong>{{titles.title_right5}}</strong>:</p>
+      <p class=\"tile-subtitle\"><strong>Cargo</strong>:</p>
       <p class=\"tile-subtitle\">{{ employment.job }}</p>
-      <p class=\"tile-subtitle\"><strong>{{titles.title_right6}}</strong>:</p>
+      <p class=\"tile-subtitle\"><strong>Descripción</strong>:</p>
       <p class=\"tile-subtitle col-xs-10\">{{ employment.description }}</p>
       <!--Descripción de trabajo-->
     </div>
@@ -340,7 +325,7 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
 <div class=\"divider\"></div>
 <div class=\"row\">
   <div class=\"col-xs-12 col-xs-offset-1\">
-      <div class=\"box\"><h3 style=\"text-decoration:underline;\">{{titles.title_right2}}</h3></div>
+      <div class=\"box\"><h3 style=\"text-decoration:underline;\">Educación Académica</h3></div>
   </div>
 </div>
 <div class=\"row\">
@@ -377,6 +362,6 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
 </div><!--row-->
 </div><!--column-->
 <!--time line end-->
-", "parts/slide-right.html.twig", "/var/www/html/carlos-sweb-cv/templates/parts/slide-right.html.twig");
+", "parts/es/slide-right.html.twig", "/var/www/html/carlos-sweb-cv/templates/parts/es/slide-right.html.twig");
     }
 }

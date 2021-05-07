@@ -12,8 +12,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* parts/slide-left.html.twig */
-class __TwigTemplate_464c6fee988f3634e223bb98b490cce9cf04d46b261eae489468dc5f2853597d extends Template
+/* parts/es/slide-left.html.twig */
+class __TwigTemplate_8340579dddd25ba0fafe3ed0813145879edf65ff60d62d383ca0f847745885ec extends Template
 {
     private $source;
     private $macros = [];
@@ -44,10 +44,7 @@ class __TwigTemplate_464c6fee988f3634e223bb98b490cce9cf04d46b261eae489468dc5f285
 
  <div class=\"row\">
               <div class=\"col-xs-12 \">
-                 <h3>";
-        // line 11
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["titles"] ?? null), "title_left1", [], "any", false, false, false, 11), "html", null, true);
-        echo "</h3>
+                 <h3>Sobre mí</h3>
               </div>
               <div class=\"col-xs-12 \">
                 <p class=\"taj\" style=\"padding-left:25px;padding-right:25px;\" >
@@ -59,10 +56,7 @@ class __TwigTemplate_464c6fee988f3634e223bb98b490cce9cf04d46b261eae489468dc5f285
           <!--open seccion title contact-->
           <div class=\"row\" style=\"padding-bottom:20px;\">
               <div class=\"col-xs-12 \">
-                  <h3>";
-        // line 23
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["titles"] ?? null), "title_left2", [], "any", false, false, false, 23), "html", null, true);
-        echo "</h3>
+                  <h3>Datos de Contacto</h3>
               </div>
           </div>
           <!--close seccion title contact-->
@@ -103,10 +97,7 @@ class __TwigTemplate_464c6fee988f3634e223bb98b490cce9cf04d46b261eae489468dc5f285
           <!--open-->
           <div class=\"row\" style=\"padding-top:20px;padding-bottom:20px;\">
               <div class=\"col-xs-12 \">
-                    <h3>";
-        // line 58
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["titles"] ?? null), "title_left3", [], "any", false, false, false, 58), "html", null, true);
-        echo "</h3>
+                    <h3>Habilidades</h3>
               </div>
           </div>
           <!--close-->
@@ -141,7 +132,7 @@ class __TwigTemplate_464c6fee988f3634e223bb98b490cce9cf04d46b261eae489468dc5f285
 
     public function getTemplateName()
     {
-        return "parts/slide-left.html.twig";
+        return "parts/es/slide-left.html.twig";
     }
 
     public function isTraitable()
@@ -151,7 +142,7 @@ class __TwigTemplate_464c6fee988f3634e223bb98b490cce9cf04d46b261eae489468dc5f285
 
     public function getDebugInfo()
     {
-        return array (  130 => 72,  120 => 64,  116 => 63,  108 => 58,  97 => 50,  80 => 36,  64 => 23,  49 => 11,  37 => 1,);
+        return array (  121 => 72,  111 => 64,  107 => 63,  91 => 50,  74 => 36,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -166,7 +157,7 @@ class __TwigTemplate_464c6fee988f3634e223bb98b490cce9cf04d46b261eae489468dc5f285
 
  <div class=\"row\">
               <div class=\"col-xs-12 \">
-                 <h3>{{titles.title_left1}}</h3>
+                 <h3>Sobre mí</h3>
               </div>
               <div class=\"col-xs-12 \">
                 <p class=\"taj\" style=\"padding-left:25px;padding-right:25px;\" >
@@ -178,7 +169,7 @@ class __TwigTemplate_464c6fee988f3634e223bb98b490cce9cf04d46b261eae489468dc5f285
           <!--open seccion title contact-->
           <div class=\"row\" style=\"padding-bottom:20px;\">
               <div class=\"col-xs-12 \">
-                  <h3>{{ titles.title_left2 }}</h3>
+                  <h3>Datos de Contacto</h3>
               </div>
           </div>
           <!--close seccion title contact-->
@@ -213,7 +204,7 @@ class __TwigTemplate_464c6fee988f3634e223bb98b490cce9cf04d46b261eae489468dc5f285
           <!--open-->
           <div class=\"row\" style=\"padding-top:20px;padding-bottom:20px;\">
               <div class=\"col-xs-12 \">
-                    <h3>{{titles.title_left3}}</h3>
+                    <h3>Habilidades</h3>
               </div>
           </div>
           <!--close-->
@@ -232,6 +223,6 @@ class __TwigTemplate_464c6fee988f3634e223bb98b490cce9cf04d46b261eae489468dc5f285
               </div>
           </div>
       {% endfor %}
-", "parts/slide-left.html.twig", "/var/www/html/carlos-sweb-cv/templates/parts/slide-left.html.twig");
+", "parts/es/slide-left.html.twig", "/var/www/html/carlos-sweb-cv/templates/parts/es/slide-left.html.twig");
     }
 }
