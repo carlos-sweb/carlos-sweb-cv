@@ -50,10 +50,13 @@
 	$output =  minifer( $html ); //$pm->load( $html )->minify()->saveHtml();
 
 	$htmloutput = fopen(__DIR__."/public/index.html", "wb");
-	$htmloutput = fopen(__DIR__."/public/en.html", "wb");
+
+	$htmloutputEn = fopen(__DIR__."/public/en.html", "wb");
 
 	fwrite($htmloutput,$output);
+	fwrite($htmloutputEn,$output);
 
 	fclose($htmloutput);
+	fclose($htmloutputEn);
 
  ?>
