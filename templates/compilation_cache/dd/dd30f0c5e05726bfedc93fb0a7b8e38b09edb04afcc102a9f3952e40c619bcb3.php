@@ -247,12 +247,18 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
             // line 101
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["institute"], "date", [], "any", false, false, false, 101), "html", null, true);
             echo "</p>
-      <p class=\"tile-subtitle\" ><strong>Institución Acádemica</strong>:</p>
+      <p class=\"tile-subtitle\" ><strong>";
+            // line 102
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["titles"] ?? null), "title_right7", [], "any", false, false, false, 102), "html", null, true);
+            echo "</strong>:</p>
       <p class=\"tile-subtitle\" >";
             // line 103
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["institute"], "name", [], "any", false, false, false, 103), "html", null, true);
             echo "</p>
-      <p class=\"tile-subtitle\" ><strong>Carrera</strong>:</p>
+      <p class=\"tile-subtitle\" ><strong>";
+            // line 104
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["titles"] ?? null), "title_right8", [], "any", false, false, false, 104), "html", null, true);
+            echo "</strong>:</p>
       <p class=\"tile-subtitle\" >";
             // line 105
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["institute"], "job", [], "any", false, false, false, 105), "html", null, true);
@@ -294,7 +300,7 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
 
     public function getDebugInfo()
     {
-        return array (  277 => 110,  258 => 105,  253 => 103,  248 => 101,  242 => 97,  234 => 91,  230 => 89,  228 => 88,  224 => 86,  207 => 85,  197 => 78,  187 => 70,  168 => 65,  164 => 64,  160 => 63,  156 => 62,  152 => 61,  148 => 60,  144 => 59,  138 => 55,  130 => 49,  126 => 47,  124 => 46,  120 => 44,  103 => 43,  93 => 36,  81 => 26,  75 => 22,  73 => 21,  68 => 18,  66 => 17,  60 => 13,  56 => 11,  54 => 10,  51 => 9,  49 => 8,  41 => 3,  37 => 1,);
+        return array (  283 => 110,  264 => 105,  260 => 104,  256 => 103,  252 => 102,  248 => 101,  242 => 97,  234 => 91,  230 => 89,  228 => 88,  224 => 86,  207 => 85,  197 => 78,  187 => 70,  168 => 65,  164 => 64,  160 => 63,  156 => 62,  152 => 61,  148 => 60,  144 => 59,  138 => 55,  130 => 49,  126 => 47,  124 => 46,  120 => 44,  103 => 43,  93 => 36,  81 => 26,  75 => 22,  73 => 21,  68 => 18,  66 => 17,  60 => 13,  56 => 11,  54 => 10,  51 => 9,  49 => 8,  41 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -400,9 +406,9 @@ class __TwigTemplate_03cd6da973cbc22acfd9efbb318de54fa69ab93aa4dd400911265f58248
       <!--Descripción-->
       <div class=\"divider\"></div>
       <p class=\"tile-subtitle\" >{{ institute.date }}</p>
-      <p class=\"tile-subtitle\" ><strong>Institución Acádemica</strong>:</p>
+      <p class=\"tile-subtitle\" ><strong>{{titles.title_right7}}</strong>:</p>
       <p class=\"tile-subtitle\" >{{ institute.name }}</p>
-      <p class=\"tile-subtitle\" ><strong>Carrera</strong>:</p>
+      <p class=\"tile-subtitle\" ><strong>{{titles.title_right8}}</strong>:</p>
       <p class=\"tile-subtitle\" >{{ institute.job }}</p>
       <!--Descripción-->
     </div>
