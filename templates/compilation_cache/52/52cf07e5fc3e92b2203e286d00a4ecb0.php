@@ -124,7 +124,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
             yield "          <div class=\"row\">
               <div class=\"col-xs-offset-1 col-xs-2 end-xs \">
                   <div class=\"box\">
-                     <img src=\"node_modules/devicon/icons/";
+                     <img src=\"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/";
             // line 66
             yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape(CoreExtension::getAttribute($this->env, $this->source, $context["skill"], "icon", [], "any", false, false, false, 66), "html", null, true);
             yield "\" width=\"24px\">
@@ -152,7 +152,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
                 // line 79
                 if (CoreExtension::getAttribute($this->env, $this->source, $context["item"], "icon", [], "any", false, false, false, 79)) {
                     yield "  
-                     <img src=\"node_modules/devicon/icons/";
+                     <img src=\"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/";
                     // line 80
                     yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape(CoreExtension::getAttribute($this->env, $this->source, $context["item"], "icon", [], "any", false, false, false, 80), "html", null, true);
                     yield "\" width=\"24px\">
@@ -276,7 +276,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
           <div class=\"row\">
               <div class=\"col-xs-offset-1 col-xs-2 end-xs \">
                   <div class=\"box\">
-                     <img src=\"node_modules/devicon/icons/{{ skill.icon }}\" width=\"24px\">
+                     <img src=\"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/{{ skill.icon }}\" width=\"24px\">
                   </div>
               </div>
               <div class=\"col-xs start-xs\">
@@ -290,7 +290,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
               <div class=\"col-xs-offset-1 col-xs-2 end-xs \">
                   <div class=\"box\">
                       {% if item.icon %}  
-                     <img src=\"node_modules/devicon/icons/{{ item.icon }}\" width=\"24px\">
+                     <img src=\"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/{{ item.icon }}\" width=\"24px\">
                       {% endif %}
                   </div>
               </div>

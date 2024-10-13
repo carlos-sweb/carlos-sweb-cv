@@ -3,7 +3,7 @@
   "version": "1.0.0",    
   "author": "carlos-sweb",
   "license": "MIT",
-  "description": "",
+  "description": "",    
   "dependencies": {
     "@material/elevation": "^11.0.0",
     "animate.css": "^4.1.1",
