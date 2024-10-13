@@ -1,10 +1,6 @@
 {
   "name": "carlos-sweb-cv",
-  "version": "1.0.0",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "1.0.0",    
   "author": "carlos-sweb",
   "license": "MIT",
   "description": "",
@@ -21,3 +17,4 @@
     "ubuntu-fontface": "^0.1.13"
   }
 }
+

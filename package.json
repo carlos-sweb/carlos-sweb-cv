@@ -1,1 +1,14 @@
-{}
+{
+  "name": "carlos-sweb-cv",
+  "version": "1.0.0",
+  "scripts": {
+    "preinstall": "mkdir -p public/node_modules",
+    "install": "npm install --prefix public"
+  },
+  "config": {
+    "prefix": "public"
+  },  
+  "author": "carlos-sweb",
+  "license": "MIT",
+  "description": ""  
+}
