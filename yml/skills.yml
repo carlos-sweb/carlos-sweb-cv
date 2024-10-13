@@ -1,0 +1,37 @@
+---
+- name: Javascript
+  icon: javascript/javascript-original.svg
+  items:
+  - name: React
+    icon: react/react-original.svg
+  - name: Vue
+    icon: vuejs/vuejs-original.svg
+  - name: Alpinejs
+    icon: alpinejs/alpinejs-original.svg
+  - name: Node Js
+    icon: nodejs/nodejs-original.svg
+  - name: Bun
+    icon: bun/bun-original.svg
+  - name: express
+    icon: express/express-original.svg
+  - name: Next.js
+    icon: nextjs/nextjs-original.svg
+  - name: Hono    
+- name: PHP
+  icon: php/php-original.svg
+  items:
+  - name: Laravel
+    icon: laravel/laravel-original.svg
+  - name: Wordpress
+    icon: wordpress/wordpress-original.svg
+- name: Css
+  icon: css3/css3-original.svg  
+  items:
+  - name: Bootstrap
+    icon: bootstrap/bootstrap-original.svg
+  - name: Bulma
+    icon: bulma/bulma-plain.svg
+- name: Json
+  icon: json/json-original.svg  
+- name: Yaml
+  icon: yaml/yaml-original.svg  

@@ -9,12 +9,13 @@ function createIndex( $file_name , $html ){
 	fclose($htmloutput);
 }
 function loadYaml( $lang ){
-	$links       = Yaml::parseFile('yaml/'.$lang.'/links.yaml');
-	$profile     = Yaml::parseFile('yaml/'.$lang.'/profile.yaml');
-	$skills      = Yaml::parseFile('yaml/'.$lang.'/skills.yaml');
-	$employments = Yaml::parseFile('yaml/'.$lang.'/employments.yaml');
-	$education   = Yaml::parseFile('yaml/'.$lang.'/education.yaml');
-	$titles      = Yaml::parseFile('yaml/'.$lang.'/titles.yaml');
+	$profile     = Yaml::parseFile('yml/profile.yml');
+	$skills      = Yaml::parseFile('yml/skills.yml');
+	$links       = Yaml::parseFile('yml/links.yml');	
+	
+	$employments = Yaml::parseFile('yml/'.$lang.'/employments.yml');
+	$education   = Yaml::parseFile('yml/'.$lang.'/education.yml');
+	$titles      = Yaml::parseFile('yml/'.$lang.'/titles.yml');
 	return [
 		"links" => $links,
 		"profile" => $profile,
