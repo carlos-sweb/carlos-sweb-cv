@@ -49,7 +49,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
 
  <div class=\"row\">
               <div class=\"col-xs-12 \">
-                 <h3>";
+                 <h3 class=\"title-left\">";
         // line 11
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape(CoreExtension::getAttribute($this->env, $this->source, ($context["titles"] ?? null), "title_left1", [], "any", false, false, false, 11), "html", null, true);
         yield "</h3>
@@ -62,7 +62,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
           </div>      
           <div class=\"row\" style=\"padding-bottom:20px;\">
               <div class=\"col-xs-12 \">
-                  <h3>";
+                  <h3 class=\"title-left\" >";
         // line 21
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape(CoreExtension::getAttribute($this->env, $this->source, ($context["titles"] ?? null), "title_left2", [], "any", false, false, false, 21), "html", null, true);
         yield "</h3>
@@ -107,7 +107,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
           <!--open-->
           <div class=\"row\" style=\"padding-top:20px;padding-bottom:20px;\">
               <div class=\"col-xs-12 \">
-                    <h3>";
+                    <h3 class=\"title-left\">";
         // line 57
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape(CoreExtension::getAttribute($this->env, $this->source, ($context["titles"] ?? null), "title_left3", [], "any", false, false, false, 57), "html", null, true);
         yield "</h3>
@@ -221,7 +221,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
 
  <div class=\"row\">
               <div class=\"col-xs-12 \">
-                 <h3>{{titles.title_left1}}</h3>
+                 <h3 class=\"title-left\">{{titles.title_left1}}</h3>
               </div>
               <div class=\"col-xs-12 \">                
                 <p class=\"taj\" style=\"padding-left:25px;padding-right:25px;\" >
@@ -231,7 +231,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
           </div>      
           <div class=\"row\" style=\"padding-bottom:20px;\">
               <div class=\"col-xs-12 \">
-                  <h3>{{ titles.title_left2 }}</h3>
+                  <h3 class=\"title-left\" >{{ titles.title_left2 }}</h3>
               </div>
           </div>
           <!--close seccion title contact-->
@@ -267,7 +267,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
           <!--open-->
           <div class=\"row\" style=\"padding-top:20px;padding-bottom:20px;\">
               <div class=\"col-xs-12 \">
-                    <h3>{{titles.title_left3}}</h3>
+                    <h3 class=\"title-left\">{{titles.title_left3}}</h3>
               </div>
           </div>
           <!--close-->
