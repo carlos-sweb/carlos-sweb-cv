@@ -65,7 +65,7 @@ class __TwigTemplate_476b53629061d44b4504126dd3c916f7 extends Template
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape(CoreExtension::getAttribute($this->env, $this->source, ($context["profile"] ?? null), "title", [], "any", false, false, false, 11), "html", null, true);
         yield "</title>
 </head>
-<body>
+<body style=\"background-color:#fafafa\">
 ";
         yield from [];
     }
@@ -108,7 +108,7 @@ class __TwigTemplate_476b53629061d44b4504126dd3c916f7 extends Template
     {% endfor %}
     <title>{{ profile.title }}</title>
 </head>
-<body>
+<body style=\"background-color:#fafafa\">
 ", "head.html.twig", "/home/sweb/github-project/carlos-sweb-cv/templates/head.html.twig");
     }
 }
