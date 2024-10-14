@@ -53,12 +53,12 @@ class __TwigTemplate_6a678642c527cfc51b9fe613c07054c5 extends Template
         // line 8
         if ((($context["lang"] ?? null) == "es")) {
             // line 9
-            yield "    <img style=\"width:24px;\" src=\"es.svg\" />&nbsp;Español<i class=\"icon icon-caret\"></i>
+            yield "    <img style=\"width:24px;\" src=\"images/es.svg\" />&nbsp;Español<i class=\"icon icon-caret\"></i>
     ";
         } elseif ((        // line 10
 ($context["lang"] ?? null) == "en")) {
             // line 11
-            yield "    <img style=\"width:24px;\" src=\"en.svg\" />&nbsp;English<i class=\"icon icon-caret\"></i>
+            yield "    <img style=\"width:24px;\" src=\"images/en.svg\" />&nbsp;English<i class=\"icon icon-caret\"></i>
     ";
         }
         // line 13
@@ -71,14 +71,14 @@ class __TwigTemplate_6a678642c527cfc51b9fe613c07054c5 extends Template
         if ((($context["lang"] ?? null) == "es")) {
             // line 18
             yield "      <a href=\"en.html\" style=\"float:left;width:100%;text-align:left;\">
-        <img src=\"en.svg\" style=\"width:24px;\" />&nbsp;Ingles
+        <img src=\"images/en.svg\" style=\"width:24px;\" />&nbsp;Ingles
       </a>
     ";
         } elseif ((        // line 21
 ($context["lang"] ?? null) == "en")) {
             // line 22
             yield "    <a href=\"index.html\" style=\"float:left;width:100%;text-align:left;\">
-      <img src=\"es.svg\" style=\"width:24px;\" />&nbsp;Spanish
+      <img src=\"images/es.svg\" style=\"width:24px;\" />&nbsp;Spanish
     </a>
     ";
         }
@@ -328,9 +328,9 @@ class __TwigTemplate_6a678642c527cfc51b9fe613c07054c5 extends Template
 <div class=\"dropdown\">
   <a href=\"#\" class=\"btn btn-link dropdown-toggle\" tabindex=\"0\">
     {% if lang == 'es' %}
-    <img style=\"width:24px;\" src=\"es.svg\" />&nbsp;Español<i class=\"icon icon-caret\"></i>
+    <img style=\"width:24px;\" src=\"images/es.svg\" />&nbsp;Español<i class=\"icon icon-caret\"></i>
     {% elseif lang == 'en' %}
-    <img style=\"width:24px;\" src=\"en.svg\" />&nbsp;English<i class=\"icon icon-caret\"></i>
+    <img style=\"width:24px;\" src=\"images/en.svg\" />&nbsp;English<i class=\"icon icon-caret\"></i>
     {% endif %}
   </a>
   <!-- menu component -->
@@ -338,11 +338,11 @@ class __TwigTemplate_6a678642c527cfc51b9fe613c07054c5 extends Template
     <li class=\"menu-item\">
     {% if lang == 'es' %}
       <a href=\"en.html\" style=\"float:left;width:100%;text-align:left;\">
-        <img src=\"en.svg\" style=\"width:24px;\" />&nbsp;Ingles
+        <img src=\"images/en.svg\" style=\"width:24px;\" />&nbsp;Ingles
       </a>
     {% elseif lang == 'en' %}
     <a href=\"index.html\" style=\"float:left;width:100%;text-align:left;\">
-      <img src=\"es.svg\" style=\"width:24px;\" />&nbsp;Spanish
+      <img src=\"images/es.svg\" style=\"width:24px;\" />&nbsp;Spanish
     </a>
     {% endif %}
   </li>

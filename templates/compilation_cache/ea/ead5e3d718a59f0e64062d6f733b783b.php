@@ -39,9 +39,7 @@ class __TwigTemplate_72f71d8da646fc9c46739c020457ca4f extends Template
     {
         $macros = $this->macros;
         // line 1
-        yield "<script src=\"https://unpkg.com/lucide@latest\"></script>
-<script type=\"text/javascript\">lucide.createIcons();</script>
-</body>
+        yield "</body>
 </html>";
         yield from [];
     }
@@ -64,9 +62,7 @@ class __TwigTemplate_72f71d8da646fc9c46739c020457ca4f extends Template
 
     public function getSourceContext(): Source
     {
-        return new Source("<script src=\"https://unpkg.com/lucide@latest\"></script>
-<script type=\"text/javascript\">lucide.createIcons();</script>
-</body>
+        return new Source("</body>
 </html>", "footer.html.twig", "/home/sweb/github-project/carlos-sweb-cv/templates/footer.html.twig");
     }
 }
