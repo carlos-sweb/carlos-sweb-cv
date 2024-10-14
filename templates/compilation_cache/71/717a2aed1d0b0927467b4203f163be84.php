@@ -46,13 +46,12 @@ class __TwigTemplate_7fa0604bf68d0adbc52957daa153622c extends Template
         yield from         $this->loadTemplate("parts/slide-left.html.twig", "content.html.twig", 3)->unwrap()->yield($context);
         // line 4
         yield "\t</div>
-\t<div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-9 start-xs animated fadeIn\">
+\t<div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-9 start-xs animated fadeIn\" style=\"background-color:#fafafa;padding-bottom:150px;\" >
 \t\t";
         // line 6
         yield from         $this->loadTemplate("parts/slide-right.html.twig", "content.html.twig", 6)->unwrap()->yield($context);
-        yield "\t\t
-\t</div>
-\t<div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-3 start-xs\" style=\"height:150px;\"></div>
+        yield "\t\t\t
+\t</div>\t
 </div>";
         yield from [];
     }
@@ -87,10 +86,9 @@ class __TwigTemplate_7fa0604bf68d0adbc52957daa153622c extends Template
 \t<div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-3 center-xs mdc-elevation--z2 animated fadeIn\" style=\"padding-bottom:56px;  background-color: #ECEFF1;\" >
 \t\t{% include('parts/slide-left.html.twig') %}
 \t</div>
-\t<div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-9 start-xs animated fadeIn\">
-\t\t{% include('parts/slide-right.html.twig') %}\t\t
-\t</div>
-\t<div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-3 start-xs\" style=\"height:150px;\"></div>
+\t<div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-9 start-xs animated fadeIn\" style=\"background-color:#fafafa;padding-bottom:150px;\" >
+\t\t{% include('parts/slide-right.html.twig') %}\t\t\t
+\t</div>\t
 </div>", "content.html.twig", "/home/sweb/github-project/carlos-sweb-cv/templates/content.html.twig");
     }
 }
