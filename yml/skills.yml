@@ -16,7 +16,8 @@
     icon: express-original.svg
   - name: Next.js
     icon: nextjs-original.svg
-  - name: Hono    
+  - name: Hono 
+    icon: hono-original.png   
 - name: PHP
   icon: php-original.svg
   items:
@@ -31,6 +32,8 @@
     icon: bootstrap-original.svg
   - name: Bulma
     icon: bulma-plain.svg
+  - name: Tailwindcss
+    icon: tailwindcss-original.svg
 - name: Json
   icon: json-original.svg  
 - name: Yaml

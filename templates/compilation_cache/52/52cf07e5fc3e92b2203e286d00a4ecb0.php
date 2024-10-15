@@ -39,7 +39,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
     {
         $macros = $this->macros;
         // line 1
-        yield "<div class=\"row center-xs middle-xs\">
+        yield "<div class=\"row center-xs middle-xs\" style=\"padding-top:50px;\">
     <div class=\"box\" >
       <figure class=\"avatar avatar-cv bluegray50\">
     <img draggable=\"false\" ondragstart=\"return false;\" src=\"images/carlos-sweb-profile.jpeg\" >
@@ -96,10 +96,12 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
               </div>
               <div class=\"col-xs start-xs\">
                   <div class=\"box\">
-                      <span class=\"text-right-icon\">";
+                      <span class=\"text-right-icon\"><a href=\"mailto:";
         // line 49
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape(CoreExtension::getAttribute($this->env, $this->source, ($context["profile"] ?? null), "email", [], "any", false, false, false, 49), "html", null, true);
-        yield "</span>
+        yield "\">";
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape(CoreExtension::getAttribute($this->env, $this->source, ($context["profile"] ?? null), "email", [], "any", false, false, false, 49), "html", null, true);
+        yield "</a></span>
                   </div>
               </div>
           </div>
@@ -206,12 +208,12 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  179 => 91,  168 => 86,  162 => 82,  157 => 80,  153 => 79,  148 => 76,  144 => 75,  137 => 71,  129 => 66,  124 => 63,  120 => 62,  112 => 57,  101 => 49,  83 => 34,  67 => 21,  54 => 11,  42 => 1,);
+        return array (  181 => 91,  170 => 86,  164 => 82,  159 => 80,  155 => 79,  150 => 76,  146 => 75,  139 => 71,  131 => 66,  126 => 63,  122 => 62,  114 => 57,  101 => 49,  83 => 34,  67 => 21,  54 => 11,  42 => 1,);
     }
 
     public function getSourceContext(): Source
     {
-        return new Source("<div class=\"row center-xs middle-xs\">
+        return new Source("<div class=\"row center-xs middle-xs\" style=\"padding-top:50px;\">
     <div class=\"box\" >
       <figure class=\"avatar avatar-cv bluegray50\">
     <img draggable=\"false\" ondragstart=\"return false;\" src=\"images/carlos-sweb-profile.jpeg\" >
@@ -259,7 +261,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
               </div>
               <div class=\"col-xs start-xs\">
                   <div class=\"box\">
-                      <span class=\"text-right-icon\">{{ profile.email }}</span>
+                      <span class=\"text-right-icon\"><a href=\"mailto:{{ profile.email }}\">{{ profile.email }}</a></span>
                   </div>
               </div>
           </div>
