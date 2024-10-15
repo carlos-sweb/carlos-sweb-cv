@@ -48,7 +48,7 @@ class __TwigTemplate_6a678642c527cfc51b9fe613c07054c5 extends Template
 
 
 <div class=\"dropdown\">
-  <a href=\"#\" class=\"btn btn-link dropdown-toggle\" tabindex=\"0\">
+  <button class=\"btn btn-link dropdown-toggle\" tabindex=\"0\">
     ";
         // line 8
         if ((($context["lang"] ?? null) == "es")) {
@@ -62,7 +62,7 @@ class __TwigTemplate_6a678642c527cfc51b9fe613c07054c5 extends Template
     ";
         }
         // line 13
-        yield "  </a>
+        yield "  </button>
   <!-- menu component -->
   <ul class=\"menu\">
     <li class=\"menu-item\">
@@ -133,9 +133,9 @@ class __TwigTemplate_6a678642c527cfc51b9fe613c07054c5 extends Template
             } else {
                 // line 49
                 yield "    <div class=\"timeline-left\">
-      <a class=\"timeline-icon icon-lg\" href=\"#timeline-example-2\">
+      <span class=\"timeline-icon icon-lg\">
         <i class=\"icon icon-check\"></i>
-      </a>
+      </span>
     </div>
     ";
             }
@@ -237,9 +237,9 @@ class __TwigTemplate_6a678642c527cfc51b9fe613c07054c5 extends Template
             } else {
                 // line 91
                 yield "    <div class=\"timeline-left\">
-      <a class=\"timeline-icon icon-lg\" href=\"#timeline-example-2\">
+      <span class=\"timeline-icon icon-lg\">
         <i class=\"icon icon-check\"></i>
-      </a>
+      </span>
     </div>
     ";
             }
@@ -326,13 +326,13 @@ class __TwigTemplate_6a678642c527cfc51b9fe613c07054c5 extends Template
 
 
 <div class=\"dropdown\">
-  <a href=\"#\" class=\"btn btn-link dropdown-toggle\" tabindex=\"0\">
+  <button class=\"btn btn-link dropdown-toggle\" tabindex=\"0\">
     {% if lang == 'es' %}
     <img alt=\"\" style=\"width:24px;\" src=\"images/es.svg\" />&nbsp;Español<i class=\"icon icon-caret\"></i>
     {% elseif lang == 'en' %}
     <img alt=\"\" style=\"width:24px;\" src=\"images/en.svg\" />&nbsp;English<i class=\"icon icon-caret\"></i>
     {% endif %}
-  </a>
+  </button>
   <!-- menu component -->
   <ul class=\"menu\">
     <li class=\"menu-item\">
@@ -369,9 +369,9 @@ class __TwigTemplate_6a678642c527cfc51b9fe613c07054c5 extends Template
     <div class=\"timeline-left\"><a class=\"timeline-icon\"></a></div>
     {% else %}
     <div class=\"timeline-left\">
-      <a class=\"timeline-icon icon-lg\" href=\"#timeline-example-2\">
+      <span class=\"timeline-icon icon-lg\">
         <i class=\"icon icon-check\"></i>
-      </a>
+      </span>
     </div>
     {% endif %}
 
@@ -411,9 +411,9 @@ class __TwigTemplate_6a678642c527cfc51b9fe613c07054c5 extends Template
     <div class=\"timeline-left\"><a class=\"timeline-icon\"></a></div>
     {% else %}
     <div class=\"timeline-left\">
-      <a class=\"timeline-icon icon-lg\" href=\"#timeline-example-2\">
+      <span class=\"timeline-icon icon-lg\">
         <i class=\"icon icon-check\"></i>
-      </a>
+      </span>
     </div>
     {% endif %}
 
