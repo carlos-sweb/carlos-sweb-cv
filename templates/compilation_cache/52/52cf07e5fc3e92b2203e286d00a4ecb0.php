@@ -42,7 +42,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
         yield "<div class=\"row center-xs middle-xs\" style=\"padding-top:50px;\">
     <div class=\"box\" >
       <figure class=\"avatar avatar-cv bluegray50\">
-    <img draggable=\"false\" ondragstart=\"return false;\" src=\"images/carlos-sweb-profile.jpeg\" >
+    <img alt=\"profile\" draggable=\"false\" ondragstart=\"return false;\" src=\"images/carlos-sweb-profile.jpeg\" >
     </figure>
     </div>
 </div>
@@ -73,7 +73,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
           <div class=\"row\">
               <div class=\"col-xs-offset-1 col-xs-2 end-xs \">
                   <div class=\"box\">
-                    <img src=\"images/telegram-svgrepo-com.svg\" width=\"24px\">
+                    <img alt=\"id-telegram\" src=\"images/telegram-svgrepo-com.svg\" width=\"24px\">
                   </div>
               </div>
               <div class=\"col-xs start-xs\">
@@ -91,7 +91,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
               <div class=\"col-xs-offset-1 col-xs-2 end-xs \">
                   <div class=\"box\">
                     <!--<i data-lucide=\"mail\"></i>-->
-                    <img src=\"images/mail.svg\" width=\"24px\">
+                    <img alt=\"protonmail\" src=\"images/mail.svg\" width=\"24px\">
                   </div>
               </div>
               <div class=\"col-xs start-xs\">
@@ -126,8 +126,10 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
             yield "          <div class=\"row\">
               <div class=\"col-xs-offset-1 col-xs-2 end-xs \">
                   <div class=\"box\">
-                     <img src=\"images/devicons/";
+                     <img alt=\"image-skill-";
             // line 66
+            yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape(CoreExtension::getAttribute($this->env, $this->source, $context["skill"], "name", [], "any", false, false, false, 66), "html", null, true);
+            yield " \" src=\"images/devicons/";
             yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape(CoreExtension::getAttribute($this->env, $this->source, $context["skill"], "icon", [], "any", false, false, false, 66), "html", null, true);
             yield "\" width=\"24px\">
                   </div>
@@ -154,8 +156,10 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
                 // line 79
                 if (CoreExtension::getAttribute($this->env, $this->source, $context["item"], "icon", [], "any", false, false, false, 79)) {
                     yield "  
-                     <img src=\"images/devicons/";
+                     <img alt=\"image-skill-";
                     // line 80
+                    yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape(CoreExtension::getAttribute($this->env, $this->source, $context["item"], "name", [], "any", false, false, false, 80), "html", null, true);
+                    yield "\" src=\"images/devicons/";
                     yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape(CoreExtension::getAttribute($this->env, $this->source, $context["item"], "icon", [], "any", false, false, false, 80), "html", null, true);
                     yield "\" width=\"24px\">
                       ";
@@ -208,7 +212,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  181 => 91,  170 => 86,  164 => 82,  159 => 80,  155 => 79,  150 => 76,  146 => 75,  139 => 71,  131 => 66,  126 => 63,  122 => 62,  114 => 57,  101 => 49,  83 => 34,  67 => 21,  54 => 11,  42 => 1,);
+        return array (  185 => 91,  174 => 86,  168 => 82,  161 => 80,  157 => 79,  152 => 76,  148 => 75,  141 => 71,  131 => 66,  126 => 63,  122 => 62,  114 => 57,  101 => 49,  83 => 34,  67 => 21,  54 => 11,  42 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -216,7 +220,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
         return new Source("<div class=\"row center-xs middle-xs\" style=\"padding-top:50px;\">
     <div class=\"box\" >
       <figure class=\"avatar avatar-cv bluegray50\">
-    <img draggable=\"false\" ondragstart=\"return false;\" src=\"images/carlos-sweb-profile.jpeg\" >
+    <img alt=\"profile\" draggable=\"false\" ondragstart=\"return false;\" src=\"images/carlos-sweb-profile.jpeg\" >
     </figure>
     </div>
 </div>
@@ -241,7 +245,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
           <div class=\"row\">
               <div class=\"col-xs-offset-1 col-xs-2 end-xs \">
                   <div class=\"box\">
-                    <img src=\"images/telegram-svgrepo-com.svg\" width=\"24px\">
+                    <img alt=\"id-telegram\" src=\"images/telegram-svgrepo-com.svg\" width=\"24px\">
                   </div>
               </div>
               <div class=\"col-xs start-xs\">
@@ -256,7 +260,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
               <div class=\"col-xs-offset-1 col-xs-2 end-xs \">
                   <div class=\"box\">
                     <!--<i data-lucide=\"mail\"></i>-->
-                    <img src=\"images/mail.svg\" width=\"24px\">
+                    <img alt=\"protonmail\" src=\"images/mail.svg\" width=\"24px\">
                   </div>
               </div>
               <div class=\"col-xs start-xs\">
@@ -278,7 +282,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
           <div class=\"row\">
               <div class=\"col-xs-offset-1 col-xs-2 end-xs \">
                   <div class=\"box\">
-                     <img src=\"images/devicons/{{ skill.icon }}\" width=\"24px\">
+                     <img alt=\"image-skill-{{ skill.name }} \" src=\"images/devicons/{{ skill.icon }}\" width=\"24px\">
                   </div>
               </div>
               <div class=\"col-xs start-xs\">
@@ -292,7 +296,7 @@ class __TwigTemplate_c84b6b4a75a3831f4387322c13d18847 extends Template
               <div class=\"col-xs-offset-1 col-xs-2 end-xs \">
                   <div class=\"box\">
                       {% if item.icon %}  
-                     <img src=\"images/devicons/{{ item.icon }}\" width=\"24px\">
+                     <img alt=\"image-skill-{{ item.name }}\" src=\"images/devicons/{{ item.icon }}\" width=\"24px\">
                       {% endif %}
                   </div>
               </div>

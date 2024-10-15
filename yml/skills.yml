@@ -17,7 +17,9 @@
   - name: Next.js
     icon: nextjs-original.svg
   - name: Hono 
-    icon: hono-original.png   
+    icon: hono-original.png
+  - name: Elysia
+    icon: elysia.svg
 - name: PHP
   icon: php-original.svg
   items:
