@@ -1,3 +1,4 @@
 /vendor/
 /node_modules/
 /templates/compilation_cache/
+/public/index.php

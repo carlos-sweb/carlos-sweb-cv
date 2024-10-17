@@ -1,20 +1,10 @@
 {
   "name": "carlos-sweb-cv",
-  "version": "1.0.0",    
+  "version": "1.0.0",
   "author": "carlos-sweb",
   "license": "MIT",
-  "description": "",    
+  "description": "",
   "dependencies": {
-    "@material/elevation": "^11.0.0",
-    "animate.css": "^4.1.1",
-    "devicon": "^2.16.0",
-    "flexboxgrid": "^6.3.1",
-    "material-icons-font": "^2.1.0",
-    "normalize": "^0.3.1",
-    "normalize.css": "^8.0.1",
-    "spectre.css": "^0.5.9",
-    "typeface-ubuntu": "^1.1.13",
-    "ubuntu-fontface": "^0.1.13"
+    "@fontsource/ubuntu": "^5.1.0"
   }
 }
-
