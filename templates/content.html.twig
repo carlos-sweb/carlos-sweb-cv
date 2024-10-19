@@ -5,8 +5,8 @@
 		</figure>
 		<h3>{{titles.title_left1}}</h3>
 		<h3>{{titles.title_left2}}</h3>
-		<div><img alt="id-telegram" src="images/telegram-svgrepo-com.svg" width="24px"><span>@cillesca</span></div>
-		<div onclick="location.href='mailto:c4rl0sill3sc4@protonmail.com'" ><img alt="id-mail" src="images/mail.svg" width="24px"><span>c4rl0sill3sc4</span></div>
+		<div><img alt="id-telegram" src="images/telegram-svgrepo-com.svg" width="24px"><span>@cillesca</span></div>		
+		<div id="mailto"><img alt="id-mail" src="images/mail.svg" width="24px"><span>c4rl0sill3sc4</span></div>
 		<h3>{{titles.title_left3}}</h3>
 		{% for skill in skills %}
 		<div><img alt="image-skill-{{ skill.name }} " src="images/devicons/{{ skill.icon }}" width="24px"><span>{{ skill.name }}</span></div>
@@ -21,13 +21,13 @@
 			
 
 				{% if lang == 'es' %} 
-					<button onclick="location.href='/'" >
+					<button id="btnlang" data-href="" >
 						<img src="images/en.svg" alt="lang-english" >
 						<span lang="en" >Read in English</span>
 						<img src="images/chevrons-right.svg" alt="">
 					</button>
 				{% elseif lang == 'en' %}
-					<button onclick="location.href='/es'" >	
+					<button id="btnlang" data-href="es.html" >	
 						<img src="images/es.svg" alt="lang-spanish" >
 						<span lang="es">Leer en Español</span>
 						<img src="images/chevrons-right.svg" alt="">
