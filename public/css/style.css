@@ -138,6 +138,7 @@ h3.title-left{
     border:none;
     padding-left:0px;
     padding-right:0px;
+    margin-left:0px;
   }
   .c-right>div{
     display:flex;
