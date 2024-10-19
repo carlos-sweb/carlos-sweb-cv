@@ -15,19 +15,19 @@
 			{% endfor %}	
 		{% endfor %}	
 	</div>
-	<div class="c-right">
+	<div class="c-right" id="details" >
 		<h1>Carlos Enrique Illesca Monsalve</h1>
 		<div>
 			
 
 				{% if lang == 'es' %} 
-					<button id="btnlang" data-href="" >
+					<button id="btnlang" data-href="#details" >
 						<img src="images/en.svg" alt="lang-english" >
 						<span lang="en" >Read in English</span>
 						<img src="images/chevrons-right.svg" alt="">
 					</button>
 				{% elseif lang == 'en' %}
-					<button id="btnlang" data-href="es.html" >	
+					<button id="btnlang" data-href="es.html#details" >	
 						<img src="images/es.svg" alt="lang-spanish" >
 						<span lang="es">Leer en Español</span>
 						<img src="images/chevrons-right.svg" alt="">
