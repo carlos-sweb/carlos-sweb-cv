@@ -45,6 +45,6 @@ function loadYaml( $lang ){
 		'debug' => true,
 		'cache' => __DIR__.'/templates/compilation_cache',
 	]);
-	createIndex('index',$twig->render('home.html.twig', loadYaml('es')));
-	createIndex('en',$twig->render('home.html.twig', loadYaml('en')));
+	createIndex('es',$twig->render('home.html.twig', loadYaml('es')));
+	createIndex('index',$twig->render('home.html.twig', loadYaml('en')));
  ?>
