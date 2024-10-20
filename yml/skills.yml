@@ -17,7 +17,7 @@
   - name: Next.js
     icon: nextjs-original.svg
   - name: Hono 
-    icon: hono-original.png
+    icon: hono-original-24x24.png
   - name: Elysia
     icon: elysia.svg
 - name: PHP
@@ -28,7 +28,7 @@
   - name: Wordpress
     icon: wordpress-original.svg
   - name: Fat-Free
-    icon: f3.png
+    icon: f3-24x24.png
 - name: Css
   icon: css3-original.svg  
   items:

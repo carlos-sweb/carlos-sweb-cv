@@ -1,4 +1,7 @@
 <?php
+
+// lighthouse https://cillesca.xyz/ --view --output html --output-path ./report.html
+
 include_once 'vendor/autoload.php';
 use Symfony\Component\Yaml\Yaml;
 use Symfony\Component\Yaml\Exception\ParseException;
