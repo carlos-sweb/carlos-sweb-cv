@@ -1,8 +1,8 @@
 <div class="c animate__animated animate__fadeIn" >
 	<div class="c-left">
 		<figure>
-			<img alt="profile" draggable="false" ondragstart="return false;" src="images/carlos-sweb-profile.jpeg">			           
-		</figure>		
+			<img alt="profile" draggable="false" src="images/carlos-sweb-profile.jpeg">
+		</figure>
 		<h3>{{titles.title_left1}}</h3>
 		<h3>{{titles.title_left2}}</h3>
 		<div><img alt="id-telegram" src="images/telegram-svgrepo-com.svg" width="24px"><span>@cillesca</span></div>		
@@ -11,7 +11,16 @@
 		{% for skill in skills %}
 		<div><img alt="image-skill-{{ skill.name }} " src="images/devicons/{{ skill.icon }}" width="24px"><span>{{ skill.name }}</span></div>
 			{% for item in skill.items %}
-			<div>&nbsp;&nbsp;&nbsp;&nbsp;<img alt="image-skill-{{ item.name }} " src="images/devicons/{{ item.icon }}" width="24px"><span>{{ item.name }}</span></div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;<img alt="image-skill-{{ item.name }}" src="images/devicons/{{ item.icon }}" width="24px">
+				<span>{{ item.name }}</span>
+				</div>
+				<!--<div>
+					<img src="images/heart.svg" alt="">
+					<img src="images/star.svg" alt="">
+					<img src="images/star.svg" alt="">
+					<img src="images/star.svg" alt="">
+					<img src="images/star.svg" alt="">
+				</div>-->
 			{% endfor %}	
 		{% endfor %}	
 	</div>

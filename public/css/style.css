@@ -71,8 +71,8 @@ h3.title-left{
   }
   .c-left > figure >img{
     border-radius: 10px / 30px;  
-    height: 6.2rem;
-    width: 6.2rem; 
+    height: 8.2rem;
+    width: 8.2rem; 
   }
 
   .c-left >div:nth-child(5){
@@ -102,7 +102,13 @@ h3.title-left{
     justify-content:start;    
     align-items: center;      
   } 
-  .c-left > div >img{
+  .c-left > div >img[src="images/star.svg"]{
+    width:18px;
+  }
+.c-left > div >img[src="images/heart.svg"]{
+    width:18px;
+  }
+  .c-left > div >img:nth-child(1){
     margin-left:25px;
   } 
   .c-left > div >span{

@@ -27,6 +27,8 @@
     icon: laravel-original.svg
   - name: Wordpress
     icon: wordpress-original.svg
+  - name: Fat-Free
+    icon: f3.png
 - name: Css
   icon: css3-original.svg  
   items:
