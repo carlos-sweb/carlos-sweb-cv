@@ -159,8 +159,8 @@
     line-height: 24px;
   }
 
-  .c-right>div>button>img[src="images/en.svg"],.c-right>div>button>img[src="images/es.svg"]{ width:24px;margin-left:6px;margin-right:6px; }
-  .c-right>div>button>img[src="images/chevrons-right.svg"]{ width:20px;margin-left:6px;margin-right:6px; }
+  .c-right>div>button>img[src="images/en.svg"],.c-right>div>button>img[src="images/es.svg"]{ width:24px;height:24px;margin-left:6px;margin-right:6px; }
+  .c-right>div>button>img[src="images/chevrons-right.svg"]{ height:20px;width:20px;margin-left:6px;margin-right:6px; }
   .c-right>div:nth-child(2){
     flex-direction: row;
     justify-content: center;
