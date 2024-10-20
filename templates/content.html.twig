@@ -5,13 +5,13 @@
 		</figure>
 		<h3>{{titles.title_left1}}</h3>
 		<h3>{{titles.title_left2}}</h3>
-		<div><img alt="id-telegram" src="images/telegram-svgrepo-com.svg" width="24px"><span>@cillesca</span></div>		
-		<div id="mailto"><img alt="id-mail" src="images/mail.svg" width="24px"><span>c4rl0sill3sc4</span></div>
+		<div><img alt="id-telegram" src="images/telegram-svgrepo-com.svg"><span>@cillesca</span></div>		
+		<div id="mailto"><img alt="id-mail" src="images/mail.svg"><span>c4rl0sill3sc4</span></div>
 		<h3>{{titles.title_left3}}</h3>
 		{% for skill in skills %}
-		<div><img alt="image-skill-{{ skill.name }} " src="images/devicons/{{ skill.icon }}" width="24px"><span>{{ skill.name }}</span></div>
+		<div><img alt="image-skill-{{ skill.name }} " src="images/devicons/{{ skill.icon }}"><span>{{ skill.name }}</span></div>
 			{% for item in skill.items %}
-				<div>&nbsp;&nbsp;&nbsp;&nbsp;<img alt="image-skill-{{ item.name }}" src="images/devicons/{{ item.icon }}" width="24px">
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;<img alt="image-skill-{{ item.name }}" src="images/devicons/{{ item.icon }}">
 				<span>{{ item.name }}</span>
 				</div>
 				<!--<div>
