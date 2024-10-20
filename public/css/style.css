@@ -8,6 +8,19 @@
     align-content: flex-start;    
     flex-direction:row; 
   }
+  .t{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-decoration: underline;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    unicode-bidi: isolate;
+    margin-left: 60px;
+  }
   .c{
     width: 100% ;
     display:flex;
@@ -66,7 +79,7 @@
     width: 100%;
     text-indent:25px;
     font-weight: 500;
-      line-height: 1.2;
+    line-height: 1.2;
 
   }
   .c-left > div{    
@@ -78,7 +91,7 @@
     justify-content:start;    
     align-items: center;      
   }
-  .c-left >div >img[src="images/mail.svg"],.c-left >div >img[src="images/telegram-svgrepo-com.svg"],
+  img[src="images/calendar.svg"],.c-left >div >img[src="images/mail.svg"],.c-left >div >img[src="images/telegram-svgrepo-com.svg"],
   .c-left > div > img[src^="images/devicons/"]{
     width: 24px;
     height: 24px;
@@ -116,7 +129,7 @@
     margin-left: 60px;
     font-size: 23px;
     font-weight: 500;
-      line-height: 1.2;
+    line-height: 1.2;
   }
   .c-right strong{
     font-weight: 600;
@@ -166,11 +179,15 @@
   }
 
   .c-right>div>img[src="images/check.svg"]:nth-child(1){      
+    width:32px;
+    height:32px;
     margin-bottom: 20px;
     margin-left: -36px;
     margin-top:-5px;
   }
-  .c-right>div>img[src="images/circle.svg"]:nth-child(1){      
+  .c-right>div>img[src="images/circle.svg"]:nth-child(1){
+    width:10px;
+    height:10px;
     margin-bottom: 20px;
     margin-left: -32px;
     margin-top:-5px;

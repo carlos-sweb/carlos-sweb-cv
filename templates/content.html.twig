@@ -45,14 +45,14 @@
 							
 
 		</div>
-		<h3>{{titles.title_right1}}</h3>
+		<p class="t" >{{titles.title_right1}}</p>
 		
 		{% for employment in employments %}			
 			<div>			
 				{% if loop.index == 1 %}
-					<img src="images/circle.svg" alt="" width="10px">						
+					<img src="images/circle.svg" alt="">						
 				{% else %}
-			 		<img src="images/check.svg" alt="" width="32px">
+			 		<img src="images/check.svg" alt="">
 				{% endif %}
 		    <p><img src="images/calendar.svg" alt="" ><span>{{ employment.date }}</span></p>
 	      	<p ><strong>{{titles.title_right4}}</strong>:</p>
@@ -63,7 +63,7 @@
 	      	<p >{{ employment.description }}</p>
 		</div>
 		{% endfor %}
-		<h3>{{titles.title_right2}}</h3>
+		<p class="t" >{{titles.title_right2}}</p>
 		{% for institute in education %}
 			<div>
 			{% if loop.index == 1 %}
