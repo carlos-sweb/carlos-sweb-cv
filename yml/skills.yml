@@ -41,4 +41,17 @@
 - name: Json
   icon: json-original.svg  
 - name: Yaml
-  icon: yaml-original.svg  
+  icon: yaml-original.svg
+- name: Database
+  icon: database.svg  
+  items:
+    - name: GraphQL
+      icon: graphql-plain.svg
+    - name: MariaDB
+      icon: mariadb-original.svg
+    - name: SQLite
+      icon: sqlite-original.svg
+    - name: PostgreSQL
+      icon: postgresql-original.svg
+    - name: MongoDB
+      icon: mongodb-original.svg
