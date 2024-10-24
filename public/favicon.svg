@@ -1,0 +1,39 @@
+<svg 
+	xmlns="http://www.w3.org/2000/svg" 
+	width="450" 
+	height="300" 
+	viewBox="0 0 90 60" 	
+	style="border:solid 1px black;"
+	stroke-linecap="round"
+	stroke-linejoin="round"		  
+	>	  
+  <rect 
+  		x="5" 
+  		y="5" 
+  		fill="#263238" 
+  		stroke-width="2.5" 
+  		stroke="#607D8B" 
+  		width="80" 
+  		height="50"   		  		
+  		/>
+  		<path 
+  			d="M30 15 L12.5 30 L30 45"
+  			stroke="#607D8B" 
+  			stroke-width="4" 
+  			fill="none"
+  		/>
+  		<line 
+  			x1="35" 
+  			y1="45" 
+  			x2="55" 
+  			y2="15" 
+  			stroke="#607D8B" 
+  			stroke-width="4"
+		/>
+		<path 
+			d="M60 15 L75 30 L60 45"
+			stroke="#607D8B"
+			stroke-width="4"
+			fill="none"
+			/>
+</svg>

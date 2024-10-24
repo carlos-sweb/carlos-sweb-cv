@@ -6,3 +6,14 @@ var btnlang = document.getElementById("btnlang");
 btnlang.addEventListener("click",function(event){
 	location.href="/"+btnlang.getAttribute("data-href");	
 });
+
+document.getElementById("img-git").addEventListener("click",function(){
+	window.open("https://github.com/carlos-sweb");
+});
+
+document.getElementById("img-npm").addEventListener("click",function(){
+	window.open("https://www.npmjs.com/~carlos-sweb");
+});
+
+
+
