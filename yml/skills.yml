@@ -55,3 +55,8 @@
       icon: postgresql-original.svg
     - name: MongoDB
       icon: mongodb-original.svg
+- name: Android
+  icon: android-original.svg
+  items:
+    - name: capacitor
+      icon: capacitor-original.svg
