@@ -225,8 +225,6 @@
     color:  rgb(59, 67, 81);  
     display: flex;
     flex-direction: column;
-    border-top:solid 1px #BDBDBD;
-
   }
   #img-git{
     width: 36px;
