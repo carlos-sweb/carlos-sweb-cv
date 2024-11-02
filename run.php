@@ -19,6 +19,7 @@ function loadYaml( $lang ){
 	$employments = Yaml::parseFile('yml/'.$lang.'/employments.yml');
 	$education   = Yaml::parseFile('yml/'.$lang.'/education.yml');
 	$titles      = Yaml::parseFile('yml/'.$lang.'/titles.yml');
+	$projects    = Yaml::parseFile('yml/'.$lang.'/projects.yml');
 	return [
 		"links" => $links,
 		"profile" => $profile,
@@ -26,7 +27,8 @@ function loadYaml( $lang ){
 		"employments" => $employments,
 		"education" => $education,
 		"titles" => $titles,
-		"lang" => $lang
+		"lang" => $lang ,
+		"projects" => $projects
 	];
 }
 	function minifer($code){
