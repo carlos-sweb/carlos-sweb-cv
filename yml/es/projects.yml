@@ -3,26 +3,30 @@
   short_desc : Pequeña libreria para validación.
   long_desc : Una pequeña herramienta para validaciones simples y cotidianas. Inspirada en la famosa librería "lodash" pero solo con las funciones mas usadas y extensible con una funcion para "done" y "reject".
   tags: [isArray,isBoolean,isDate,isFunction,isNull,isNumber,isObject,isString,isUndefined,isElement,isEmpty,isEmail,isNaN,isRegExp,isUrl,isHTMLCollection,isNodeList ]    
-  bg : 42A5F5
+  color : 93d8fd
+  bg : 1e5aaf
   btn_text: Ver proyecto
 - name : pp-events
   link : https://github.com/carlos-sweb/pp-events
-  short_desc : Simple manager events of Javascript.
-  long_desc : Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+  short_desc : Simple gestor de eventos de Javascript.
+  long_desc : Una biblioteca ligera y eficiente para la gestión de eventos en JavaScript, diseñada para simplificar la manera en que los desarrolladores manejan la comunicación basada en eventos en sus aplicaciones web.Permite crear, gestionar y disparar eventos personalizados de manera sencilla y eficiente.
   tags : [ events, javascript , emiter]
-  bg : 8BC34A
+  color : b0d97d
+  bg : 456922
   btn_text: Ver proyecto
 - name : pp-validate
   link : https://github.com/carlos-sweb/pp-validate
-  short_desc : Una función simple para validar información.
-  long_desc : Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+  short_desc : Librería JavaScript para validación de datos con reglas personalizables y sintaxis simple.
+  long_desc : Una Librería JavaScript liviana y flexible para validación de datos. Ofrece un conjunto completo de reglas predefinidas para validar tipos numéricos, patrones, cadenas de texto y valores booleanos. Su API intuitiva permite validar objetos contra reglas personalizadas, ideal para formularios web y validación de datos en general.
   tags : [ validate ]
-  bg : 7E57C2
+  color : b3abf6
+  bg : 332352
   btn_text: Ver proyecto
 - name : pp-model.js
   link : https://github.com/carlos-sweb/pp-model
   short_desc : Los modelos son el corazón de cualquier aplicación Javascript.
-  long_desc : Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+  long_desc : Una biblioteca JavaScript liviana y potente que proporciona una estructura robusta para el manejo de datos en aplicaciones web modernas. Con un sistema integrado de eventos y validación, permite rastrear y reaccionar a cambios en tiempo real, implementar validaciones personalizadas y manipular datos estructurados de forma eficiente. La biblioteca ofrece una API intuitiva que incluye verificación de tipos, manipulación de estados y soporte para reglas de validación avanzadas, haciéndola ideal tanto para proyectos pequeños como para aplicaciones empresariales complejas que requieren una gestión de estado confiable y estructurada.
   tags : [ model , data-model , data ]
-  bg : EF5350  
+  color : fba8a6
+  bg : b7211e  
   btn_text: Ver proyecto

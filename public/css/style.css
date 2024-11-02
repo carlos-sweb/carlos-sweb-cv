@@ -261,6 +261,7 @@
       margin-right:10px;
       text-align: justify;
       text-justify: inter-word;
+      line-height:22px;
     }  
     .project-short-desc{
       font-weight:700;

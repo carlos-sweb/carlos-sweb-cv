@@ -3,26 +3,30 @@
   short_desc : Small library for validation.
   long_desc : A small tool for simple, everyday validations. Inspired by the famous “lodash” library but only with the most used functions and extensible with a function for “done” and “reject”.
   tags: [isArray,isBoolean,isDate,isFunction,isNull,isNumber,isObject,isString,isUndefined,isElement,isEmpty,isEmail,isNaN,isRegExp,isUrl,isHTMLCollection,isNodeList ]
-  bg : 42A5F5
+  color : 93d8fd
+  bg : 1e5aaf
   btn_text: View Project
 - name : pp-events
   link : https://github.com/carlos-sweb/pp-events
   short_desc : Simple manager events of Javascript.
-  long_desc : Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+  long_desc : A lightweight and efficient JavaScript event handling library designed to simplify the way developers handle event-based communication in their web applications.Allows you to create, manage and fire custom events easily and efficiently.
   tags : [ events, javascript , emiter]
-  bg : 8BC34A
+  color : b0d97d
+  bg : 456922
   btn_text: View Project
 - name : pp-validate
   link : https://github.com/carlos-sweb/pp-validate
-  short_desc : A simple function for data validation.
-  long_desc : Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+  short_desc : JavaScript library for data validation with customizable rules and simple syntax.
+  long_desc : A lightweight and flexible JavaScript library for data validation. It offers a complete set of predefined rules to validate numeric types, patterns, strings and boolean values. Its intuitive API allows you to validate objects against custom rules, ideal for web forms and data validation in general.
   tags : [ validate ]
-  bg : 7E57C2
+  color : b3abf6
+  bg : 332352
   btn_text: View Project
 - name : pp-model.js
   link : https://github.com/carlos-sweb/pp-model
   short_desc : Models are the heart of any JavaScript application.
-  long_desc : Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+  long_desc : A lightweight and powerful JavaScript library that provides a robust framework for handling data in modern web applications. With an integrated event and validation system, it allows you to track and react to changes in real time, implement custom validations and manipulate structured data efficiently. The library offers an intuitive API that includes type checking, state manipulation and support for advanced validation rules, making it ideal for both small projects and complex enterprise applications that require reliable and structured state management. 
   tags : [ model , data-model , data ]
-  bg : EF5350  
+  color : fba8a6
+  bg : b7211e  
   btn_text: View Project
