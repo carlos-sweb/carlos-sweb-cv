@@ -60,3 +60,13 @@
   items:
     - name: capacitor
       icon: capacitor-original.svg
+- name: Bundlers
+  icon: ./../package-open.svg
+  items:
+    - name: Vite
+      icon: vitejs-original.svg
+    - name: Webpack
+      icon: webpack-original.svg    
+    - name: Esbuild
+      icon: esbuild.svg    
+    
