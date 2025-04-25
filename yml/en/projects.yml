@@ -5,7 +5,7 @@
   tags: [isArray,isBoolean,isDate,isFunction,isNull,isNumber,isObject,isString,isUndefined,isElement,isEmpty,isEmail,isNaN,isRegExp,isUrl,isHTMLCollection,isNodeList ]
   color : 93d8fd
   bg : 1e5aaf
-  btn_text: View Project
+  btn_text: See Project
 - name : pp-events
   link : https://github.com/carlos-sweb/pp-events
   short_desc : Simple manager events of Javascript.
@@ -13,7 +13,7 @@
   tags : [ events, javascript , emiter]
   color : b0d97d
   bg : 456922
-  btn_text: View Project
+  btn_text: See Project
 - name : pp-validate
   link : https://github.com/carlos-sweb/pp-validate
   short_desc : JavaScript library for data validation with customizable rules and simple syntax.
@@ -21,7 +21,7 @@
   tags : [ validate ]
   color : b3abf6
   bg : 332352
-  btn_text: View Project
+  btn_text: See Project
 - name : pp-model.js
   link : https://github.com/carlos-sweb/pp-model
   short_desc : Models are the heart of any JavaScript application.
@@ -29,4 +29,4 @@
   tags : [ model , data-model , data ]
   color : fba8a6
   bg : b7211e  
-  btn_text: View Project
+  btn_text: See Project
