@@ -2,31 +2,41 @@
   link : https://github.com/carlos-sweb/pp-is
   short_desc : Pequeña libreria para validación.
   long_desc : Una pequeña herramienta para validaciones simples y cotidianas. Inspirada en la famosa librería "lodash" pero solo con las funciones mas usadas y extensible con una funcion para "done" y "reject".
-  tags: [isArray,isBoolean,isDate,isFunction,isNull,isNumber,isObject,isString,isUndefined,isElement,isEmpty,isEmail,isNaN,isRegExp,isUrl,isHTMLCollection,isNodeList ]    
-  color : 93d8fd
-  bg : 1e5aaf
+  tags: [isArray,isBoolean,isDate,isFunction,isNull,isNumber,isObject,isString,isUndefined,isElement,isEmpty,isEmail,isNaN,isRegExp,isUrl,isHTMLCollection,isNodeList,isBlank,isPromise,isNil]
+  type: js
   btn_text: Ver proyecto
 - name : pp-events
   link : https://github.com/carlos-sweb/pp-events
   short_desc : Simple gestor de eventos de Javascript.
   long_desc : Una biblioteca ligera y eficiente para la gestión de eventos en JavaScript, diseñada para simplificar la manera en que los desarrolladores manejan la comunicación basada en eventos en sus aplicaciones web.Permite crear, gestionar y disparar eventos personalizados de manera sencilla y eficiente.
-  tags : [ events, javascript , emiter]
-  color : b0d97d
-  bg : 456922
+  tags : [ events, javascript , emiter]  
+  type: js
   btn_text: Ver proyecto
 - name : pp-validate
   link : https://github.com/carlos-sweb/pp-validate
   short_desc : Librería JavaScript para validación de datos con reglas personalizables y sintaxis simple.
   long_desc : Una Librería JavaScript liviana y flexible para validación de datos. Ofrece un conjunto completo de reglas predefinidas para validar tipos numéricos, patrones, cadenas de texto y valores booleanos. Su API intuitiva permite validar objetos contra reglas personalizadas, ideal para formularios web y validación de datos en general.
-  tags : [ validate ]
-  color : b3abf6
-  bg : 332352
+  tags : [ validate ]  
+  type: js
   btn_text: Ver proyecto
 - name : pp-model.js
   link : https://github.com/carlos-sweb/pp-model
   short_desc : Los modelos son el corazón de cualquier aplicación Javascript.
   long_desc : Una biblioteca JavaScript liviana y potente que proporciona una estructura robusta para el manejo de datos en aplicaciones web modernas. Con un sistema integrado de eventos y validación, permite rastrear y reaccionar a cambios en tiempo real, implementar validaciones personalizadas y manipular datos estructurados de forma eficiente. La biblioteca ofrece una API intuitiva que incluye verificación de tipos, manipulación de estados y soporte para reglas de validación avanzadas, haciéndola ideal tanto para proyectos pequeños como para aplicaciones empresariales complejas que requieren una gestión de estado confiable y estructurada.
-  tags : [ model , data-model , data ]
-  color : fba8a6
-  bg : b7211e  
+  tags : [ model , data-model , data ]  
+  type: js
+  btn_text: Ver proyecto
+- name : pp-rut
+  link : https://github.com/carlos-sweb/pp-rut
+  short_desc : Analiza de forma rapida y sencilla los R.U.T chilenos
+  long_desc : Una herramienta simple para verificar el dígito de un R.U.T chileno , este dígito se verifica través de un calculo matemático muy sencillo llamado Modulo 11.
+  tags : [ rut , chilean rut ]
+  type: js
+  btn_text: Ver proyecto
+- name : librut
+  link : https://github.com/carlos-sweb/librut
+  short_desc : Analiza de forma rapida y sencilla los R.U.T chilenos
+  long_desc : Una Aplicación de consola sencilla para verificar el dígito del R.U.T  chileno. Además incluye "librut.h" para  agregar esta funcionalidad a tu proyecto personalizado. 
+  tags : [ rut , cpp , c++ , chilean rut]
+  type: cpp
   btn_text: Ver proyecto

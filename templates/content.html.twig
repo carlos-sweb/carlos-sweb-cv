@@ -54,9 +54,22 @@
 			{% for project in projects %}	
 			
 			<div class="shadow project-container-items" >
-
-			<p class="project-name" style="background-color:#{{ project.bg }};color:#{{ project.color }};">
-				{{ project.name }}</p>
+			<div class="project-name" style="
+				display:flex;
+				text-align: center;
+				flex-direction:row;
+				justify-content:left;
+				padding:5px;
+				vertical-align:middle;" >
+				<p style="text-indent:18px;display:flex;flex-grow:1">{{project.name}}</p>
+				{% if project.type == "js" %}
+					<img style="width:36px;" src="images/devicons/javascript-original.svg" />
+				{% elseif project.type == "cpp" %}
+					<img style="width:36px;" src="images/devicons/cplusplus-original.svg" />
+				{% endif %}
+				
+			</div>
+		
 			<p class="project-short-desc" >{{ project.short_desc }}</p>
 			<p class="project-long-desc" >{{ project.long_desc }}</p>
 			<p class="project-tag-container" >
@@ -65,9 +78,10 @@
 				{% endfor %}	
 			</p>
 			<p style="display:flex;flex-grow:1;flex-direction:column;align-items:flex-end;" >
-				<a class="project-btn" style="color:#{{ project.bg }};" target="_blank" href="{{ project.link }}">{{ project.btn_text }}</a>			
-			</p>					
-				
+				<a class="project-btn" target="_blank" href="{{ project.link }}">
+					<span>{{ project.btn_text }}&nbsp;</span>					
+					<img src="images/external-link.svg" alt=""></a>			
+			</p>									
 			</div>
 		{% endfor %}	
 		</div>

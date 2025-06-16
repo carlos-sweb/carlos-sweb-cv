@@ -2,31 +2,41 @@
   link : https://github.com/carlos-sweb/pp-is
   short_desc : Small library for validation.
   long_desc : A small tool for simple, everyday validations. Inspired by the famous “lodash” library but only with the most used functions and extensible with a function for “done” and “reject”.
-  tags: [isArray,isBoolean,isDate,isFunction,isNull,isNumber,isObject,isString,isUndefined,isElement,isEmpty,isEmail,isNaN,isRegExp,isUrl,isHTMLCollection,isNodeList ]
-  color : 93d8fd
-  bg : 1e5aaf
+  tags: [isArray,isBoolean,isDate,isFunction,isNull,isNumber,isObject,isString,isUndefined,isElement,isEmpty,isEmail,isNaN,isRegExp,isUrl,isHTMLCollection,isNodeList,isBlank,isPromise,isNil]
+  type: js
   btn_text: See Project
 - name : pp-events
   link : https://github.com/carlos-sweb/pp-events
   short_desc : Simple manager events of Javascript.
   long_desc : A lightweight and efficient JavaScript event handling library designed to simplify the way developers handle event-based communication in their web applications.Allows you to create, manage and fire custom events easily and efficiently.
   tags : [ events, javascript , emiter]
-  color : b0d97d
-  bg : 456922
+  type: js
   btn_text: See Project
 - name : pp-validate
   link : https://github.com/carlos-sweb/pp-validate
   short_desc : JavaScript library for data validation with customizable rules and simple syntax.
   long_desc : A lightweight and flexible JavaScript library for data validation. It offers a complete set of predefined rules to validate numeric types, patterns, strings and boolean values. Its intuitive API allows you to validate objects against custom rules, ideal for web forms and data validation in general.
   tags : [ validate ]
-  color : b3abf6
-  bg : 332352
+  type: js
   btn_text: See Project
 - name : pp-model.js
   link : https://github.com/carlos-sweb/pp-model
   short_desc : Models are the heart of any JavaScript application.
   long_desc : A lightweight and powerful JavaScript library that provides a robust framework for handling data in modern web applications. With an integrated event and validation system, it allows you to track and react to changes in real time, implement custom validations and manipulate structured data efficiently. The library offers an intuitive API that includes type checking, state manipulation and support for advanced validation rules, making it ideal for both small projects and complex enterprise applications that require reliable and structured state management. 
   tags : [ model , data-model , data ]
-  color : fba8a6
-  bg : b7211e  
+  type: js
+  btn_text: See Project
+- name : pp-rut
+  link : https://github.com/carlos-sweb/pp-rut
+  short_desc : Quickly and easily analyze Chilean R.U.T. numbers
+  long_desc : A simple tool for verifying the digit of a Chilean R.U.T. (tax ID number). This digit is verified using a very simple mathematical calculation called Modulo 11.
+  tags : [ rut , chilean rut]
+  type: js
+  btn_text: See Project
+- name : librut
+  link : https://github.com/carlos-sweb/librut
+  short_desc : Quickly and easily analyze Chilean R.U.T. numbers
+  long_desc : A simple console application to verify the digit of the Chilean R.U.T. It also includes “librut.h” to add this functionality to your custom project.
+  tags : [ rut , cpp , c++ , chilean rut]
+  type: cpp
   btn_text: See Project
