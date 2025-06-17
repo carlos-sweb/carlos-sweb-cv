@@ -41,7 +41,19 @@
 					</button>
 				{% endif %}							
 		</div>
-		
+		<div style="   display:flex;
+      flex-direction:row;
+      flex-wrap:wrap;
+      border:none;
+      padding: 0px;
+      margin: 0px;
+      justify-content:left;
+      align-items:start;
+      text-indent:50px;
+      padding-bottom:15px;
+      " >      	
+			<p style="font-size:26px;">{{ titles.title_project }}:</p>			
+		</div>
 		<div style="   display:flex;
       flex-direction:row;
       flex-wrap:wrap;
@@ -50,7 +62,7 @@
       margin: 0px;
       justify-content: space-around;
       align-items:start;
-      " >
+      " >      	
 			{% for project in projects %}	
 			
 			<div class="shadow project-container-items" >
@@ -60,7 +72,7 @@
 				flex-direction:row;
 				justify-content:left;
 				padding:5px;
-				vertical-align:middle;" >
+				vertical-align:middle;" >				
 				<p style="text-indent:18px;display:flex;flex-grow:1">{{project.name}}</p>
 				{% if project.type == "js" %}
 					<img style="width:36px;" src="images/devicons/javascript-original.svg" />
