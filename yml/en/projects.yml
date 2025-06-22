@@ -31,7 +31,7 @@
   type: js
   btn_text: See Project
 - name : pp-rut
-  version : 1.0.2
+  version : 1.0.3
   link : https://github.com/carlos-sweb/pp-rut
   short_desc : Quickly and easily analyze Chilean R.U.T. numbers
   long_desc : A simple tool for verifying the digit of a Chilean R.U.T. (tax ID number). This digit is verified using a very simple mathematical calculation called Modulo 11.

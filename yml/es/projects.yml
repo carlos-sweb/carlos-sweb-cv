@@ -31,7 +31,7 @@
   type: js
   btn_text: Ver proyecto
 - name : pp-rut
-  version : 1.0.2
+  version : 1.0.3
   link : https://github.com/carlos-sweb/pp-rut
   short_desc : Analiza de forma rapida y sencilla los R.U.T chilenos
   long_desc : Una herramienta simple para verificar el dígito de un R.U.T chileno , este dígito se verifica través de un calculo matemático muy sencillo llamado Modulo 11.
