@@ -2,13 +2,13 @@ body{
 	display:flex;
 	flex-flow:column wrap;
 	align-items:center;	
-	font-family: 'JetBrains Mono';
+	font-family: 'Ubuntu';
 	background-color:#f5f5f5;
 	color:#263238;
 	padding-bottom:50px;
 }
 section{
-	width:650px;
+	max-width:650px;
 	padding: 5px;
 	margin-top:10px;	
 }

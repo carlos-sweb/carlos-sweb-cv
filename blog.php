@@ -14,7 +14,7 @@ function createIndex( $file_name , $html ){
 function loadYaml(){
 	
 			$links = [
-				"/node_modules/@fontsource/jetbrains-mono/400.css",
+				"/fonts/400.css",
 				"/css/normalize.min.css",
 				"/css/blog.css",
 				"/css/sql.css",
