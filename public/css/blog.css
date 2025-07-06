@@ -1,0 +1,49 @@
+body{
+	display:flex;
+	flex-flow:column wrap;
+	align-items:center;	
+	font-family: 'JetBrains Mono';
+	background-color:#f5f5f5;
+	color:#263238;
+	padding-bottom:50px;
+}
+section{
+	width:650px;
+	padding: 5px;
+	margin-top:10px;	
+}
+
+.section-code{
+	background-color:#10141c;
+	color:white;
+	border-radius:8px;
+	padding:5px;
+}
+
+.sql-p{
+	padding:1px;
+}
+.sql-p>span{
+	display:inline-block;	
+	padding-top:4px;
+}
+
+.sql-accent{
+	color:#e6b450;
+	font-weight:900;	
+}
+.sql-green{
+	color:#81C784;
+}
+.sql-yellow{
+	color:#FF8F00;
+}
+.sql-red{
+	color:#E53935;
+	font-weight:900;
+	font-style:italic;
+}
+
+.sql-orange{
+	color:#FF5722;
+}

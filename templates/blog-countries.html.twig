@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}"  translate="no" >
+  <head>
+    <link rel="icon" type="image/png" href="/favicon.png" />    
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;" />
+    <meta name="google" content="notranslate">
+    <meta charset="utf-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="description" content="Carlos Illesca Monsalve's Curriculum Vitae describe all work I had as developer and other"  >
+    {% for link in links %}
+    <link rel="stylesheet" href="{{ link }}">
+    {% endfor %}
+    <title>{{ profile.title }}</title>    
+</head>
+<body class="animate__animated animate__fadeIn">
+
+  <section>
+    <h1>Manifiesto Mantenedor de Países.</h1>
+    <h3>Por Carlos Illesca</h3>
+    <hr>
+  </section>  
+  <section>
+    <h3>Objeto:</h3>
+    <p>Busca contener los nombres y códigos de paises según normal ISO 3166/2.</p>
+    <p>Contiene 249 países.</p>
+  </section>
+  <section>
+    <h3>Mariadb/Mysql</h3>
+  </section>
+  <section class="section-code">    
+    <p class="sql-p">
+      <span 
+        class="sql-accent">
+      &nbsp;CREATE TABLE&nbsp;</span>
+      <span class="sql-green">`</span>
+      <span class="sql-yellow">countries</span>
+      <span class="sql-green">`</span></span>(
+      <br>            
+      <span 
+      class="sql-green">&nbsp;`</span>id`<span class="sql-accent">&nbsp;INT</span>(<span class="sql-yellow">11</span>)<span class="sql-orange">&nbsp;NOT&nbsp;</span><span class="sql-red">NULL AUTO_INCREMENT</span>,<br>
+  <span class="sql-green">&nbsp;`</span>name<span class="sql-green">`</span>&nbsp;<span class="sql-accent">VARCHAR</span>(<span class="sql-yellow">255</span>)<span class="sql-orange">&nbsp;NOT&nbsp;</span><span class="sql-red">NULL</span>,<br>
+  <span class="sql-green">&nbsp;`</span>alpha_2_code<span class="sql-green">`</span>&nbsp;<span class="sql-accent">VARCHAR</span>(<span class="sql-yellow">2</span>)<span class="sql-orange">&nbsp;NOT&nbsp;</span><span class="sql-red">NULL</span>,<br>
+  <span class="sql-green">&nbsp;`</span>alpha_3_code<span class="sql-green">`</span>&nbsp;<span class="sql-accent">VARCHAR</span>(<span class="sql-yellow">3</span>)<span class="sql-orange">&nbsp;NOT&nbsp;</span><span class="sql-red">NULL</span>,<br>
+  <span class="sql-green">&nbsp;`</span>numeric_code<span class="sql-green">`</span>&nbsp;<span class="sql-accent">INT</span>(<span class="sql-yellow">3</span>)&nbsp;<span class="sql-red">NULL</span>,<br>
+  <span class="sql-green">&nbsp;`</span>active<span class="sql-green">`</span>&nbsp;<span class="sql-accent">ENUM</span>(<span class="sql-green">'enabled'</span>,<span class="sql-green">'disabled'</span>,<span class="sql-green">'suspended'</span>)<span class="sql-orange">&nbsp;NOT&nbsp;</span><span class="sql-red">NULL DEFAULT</span><span class="sql-green">'enabled'</span>,<br>
+  <span class="sql-red">&nbsp;PRIMARY KEY</span>
+  <span>&nbsp;(`id`),</span><br>
+  <span>&nbsp;INDEX `idx_numeric_code` (`numeric_code`),</span><br>
+  <span class="sql-red">&nbsp;UNIQUE</span>
+  <span> (`name`,`alpha_2_code`,`alpha_3_code`,`numeric_code`));</span>
+
+    </p>
+  </section>
+  <section class="section-code">
+    <p class="sql-p">
+<span class="sql-accent">&nbsp;INSERT INTO&nbsp;</span><span class="sql-green">`</span><span class="sql-orange">countries</span><span class="sql-green">`&nbsp;</span><br>&nbsp;(`numeric_code`,`alpha_3_code`,`alpha_2_code`,`name`)<br>
+<span class="sql-accent">&nbsp;VALUES</span><br> 
+
+{% for country in countries %}    
+    &nbsp;(<span class="sql-yellow">{{country[0]}}</span>,<span class="sql-green">"{{country[1]}}"</span>,<span class="sql-green">"{{country[2]}}"</span>,<span class="sql-green">"{{country[3]}}"</span>),<br>
+{% endfor %}
+
+    </p>
+  </section>
+</body>
+</html>

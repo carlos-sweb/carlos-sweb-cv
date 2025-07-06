@@ -5,6 +5,7 @@
   "license": "MIT",
   "description": "",
   "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.2.6",
     "@fontsource/ubuntu": "^5.1.0"
   }
 }
