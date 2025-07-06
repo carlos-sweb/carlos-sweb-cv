@@ -1,16 +1,22 @@
 body{
-	display:flex;
-	flex-flow:column wrap;
-	align-items:center;	
+	display:grid;
+	grid-template-rows: auto;
+	grid-template-columns:auto;
 	font-family: 'Ubuntu';
 	background-color:#f5f5f5;
 	color:#263238;
-	padding-bottom:50px;
+	padding:0px 0px 50px 0px;	
+
 }
 section{
+	justify-self: center;
+	margin:10px 0px 0px 0px;
+	width: 100%;
 	max-width:650px;
-	padding: 5px;
-	margin-top:10px;	
+	padding: 5px;	
+	display:flex;
+	flex-flow: column wrap;
+	flex-grow:1;
 }
 
 .section-code{
