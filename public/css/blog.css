@@ -1,30 +1,40 @@
 body{
 	display:grid;
-	grid-template-rows: auto;
+	grid-template-rows:auto;
 	grid-template-columns:auto;
-	font-family: 'Ubuntu';
+	font-family:'Ubuntu';
 	background-color:#f5f5f5;
 	color:#263238;
-	padding:0px 0px 50px 0px;	
-
+	padding:0px 0px 50px 0px;
 }
+
 section{
-	justify-self: center;
-	margin:10px 0px 0px 0px;
-	width: 100%;
-	max-width:650px;
-	padding: 5px;	
+
+	justify-self: center;	
+
+
 	display:flex;
 	flex-flow: column wrap;
 	flex-grow:1;
+	text-align:left;
+	
+	margin:10px 0px 0px 0px;
+	padding:10px 0px 0px 0px;
+	width: 100%;
+	max-width:650px;
+		
 }
 
+.section-code>p{
+	margin: 0px;
+}
 .section-code{
 	background-color:#10141c;
 	color:white;
 	border-radius:8px;
-	padding:5px;
+	padding-bottom:50px;
 }
+
 
 .sql-p{
 	padding:1px;
@@ -33,7 +43,6 @@ section{
 	display:inline-block;	
 	padding-top:4px;
 }
-
 .sql-accent{
 	color:#e6b450;
 	font-weight:900;	
@@ -49,7 +58,17 @@ section{
 	font-weight:900;
 	font-style:italic;
 }
-
 .sql-orange{
 	color:#FF5722;
+}
+
+.section-code>p>img{
+	float:right;
+	margin-right:20px;
+	cursor:pointer;
+}
+
+
+img[src="/images/menu.svg"]{
+	cursor:pointer;
 }

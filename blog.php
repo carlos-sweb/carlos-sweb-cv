@@ -44,6 +44,8 @@ function loadYaml(){
 		'debug' => true,
 		'cache' => __DIR__.'/templates/compilation_cache',
 	]);
+	// https://www.iso.org/obp/ui/#search
+	// https://www.iso.org/glossary-for-iso-3166.html
 	createIndex(
 		'countries',
 		$twig->render('blog-countries.html.twig',loadYaml())

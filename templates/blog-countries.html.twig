@@ -15,6 +15,7 @@
 <body class="animate__animated animate__fadeIn">
 
   <section>
+    <p><img src="/images/menu.svg" alt=""></p>    
     <h1>Manifiesto Mantenedor de Países.</h1>
     <h3>Por Carlos Illesca</h3>
     <hr>
@@ -24,10 +25,9 @@
     <p>Busca contener los nombres y códigos de paises según normal ISO 3166/2.</p>
     <p>Contiene 249 países.</p>
   </section>
-  <section>
-    <h3>Mariadb/Mysql</h3>
-  </section>
-  <section class="section-code">    
+  <section><h3>Mariadb / Mysql</h3></section>
+  <section class="section-code">
+    <p><img src="/images/copy.svg" alt="copy_code"></p>    
     <p class="sql-p">
       <span 
         class="sql-accent">
@@ -42,7 +42,7 @@
   <span class="sql-green">&nbsp;`</span>alpha_2_code<span class="sql-green">`</span>&nbsp;<span class="sql-accent">VARCHAR</span>(<span class="sql-yellow">2</span>)<span class="sql-orange">&nbsp;NOT&nbsp;</span><span class="sql-red">NULL</span>,<br>
   <span class="sql-green">&nbsp;`</span>alpha_3_code<span class="sql-green">`</span>&nbsp;<span class="sql-accent">VARCHAR</span>(<span class="sql-yellow">3</span>)<span class="sql-orange">&nbsp;NOT&nbsp;</span><span class="sql-red">NULL</span>,<br>
   <span class="sql-green">&nbsp;`</span>numeric_code<span class="sql-green">`</span>&nbsp;<span class="sql-accent">INT</span>(<span class="sql-yellow">3</span>)&nbsp;<span class="sql-red">NULL</span>,<br>
-  <span class="sql-green">&nbsp;`</span>active<span class="sql-green">`</span>&nbsp;<span class="sql-accent">ENUM</span>(<span class="sql-green">'enabled'</span>,<span class="sql-green">'disabled'</span>,<span class="sql-green">'suspended'</span>)<span class="sql-orange">&nbsp;NOT&nbsp;</span><span class="sql-red">NULL DEFAULT</span><span class="sql-green">'enabled'</span>,<br>
+  <span class="sql-green">&nbsp;`</span>active<span class="sql-green">`</span>&nbsp;<span class="sql-accent">ENUM</span>(<span class="sql-green">'enabled'</span>,<span class="sql-green">'disabled'</span>,<span class="sql-green">'suspended'</span>)<span class="sql-orange">&nbsp;NOT&nbsp;</span><span class="sql-red">NULL DEFAULT</span><span class="sql-green">&nbsp;&nbsp;'enabled'</span>,<br>
   <span class="sql-red">&nbsp;PRIMARY KEY</span>
   <span>&nbsp;(`id`),</span><br>
   <span>&nbsp;INDEX `idx_numeric_code` (`numeric_code`),</span><br>
@@ -52,9 +52,10 @@
     </p>
   </section>
   <section class="section-code">
+    <p><img src="/images/copy.svg" alt="copy_code"></p>    
     <p class="sql-p">
-<span class="sql-accent">&nbsp;INSERT INTO&nbsp;</span><span class="sql-green">`</span><span class="sql-orange">countries</span><span class="sql-green">`&nbsp;</span><br>&nbsp;(`numeric_code`,`alpha_3_code`,`alpha_2_code`,`name`)<br>
-<span class="sql-accent">&nbsp;VALUES</span><br> 
+<span class="sql-accent">&nbsp;&nbsp;INSERT INTO&nbsp;</span><span class="sql-green">`</span><span class="sql-orange">countries</span><span class="sql-green">`&nbsp;</span><br><span>&nbsp;&nbsp;(`numeric_code`,`alpha_3_code`,`alpha_2_code`,`name`)</span><br>
+<span class="sql-accent">&nbsp;&nbsp;VALUES</span><br> 
 
 {% for country in countries %}    
     &nbsp;(<span class="sql-yellow">&nbsp;{{country[0]}}&nbsp;</span>,<span class="sql-green">&nbsp;"{{country[1]}}"&nbsp;</span>,<span class="sql-green">&nbsp;"{{country[2]}}"&nbsp;</span>,<span class="sql-green">&nbsp;"{{country[3]}}"&nbsp;</span>),<br>
