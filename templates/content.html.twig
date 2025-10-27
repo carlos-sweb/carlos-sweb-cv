@@ -45,18 +45,26 @@
 			<p>{{titles.title_project}}:</p>
 		</div>
 
-		<div>      	
+		<div style="justify-content: flex-start;" >      	
 			{% for project in projects %}				
 			<div class="shadow project-container-items" >
 			<div class="project-name" >				
 				<p>{{project.name}}</p>
 				<p>{{project.version}}&nbsp;&nbsp;&nbsp;</p>
-				{% if project.type == "js" %}
-					<img src="images/devicons/javascript-original.svg" alt="js" />
-				{% elseif project.type == "cpp" %}
-					<img src="images/devicons/cplusplus-original.svg" alt="cpp" />
-				{% endif %}
-				
+
+			
+				{% for type in project.type %}
+					{% if type == "js" %}
+						<img src="images/devicons/javascript-original.svg" alt="js" />
+					{% elseif type == "cpp" %}
+						<img src="images/devicons/cplusplus-original.svg" alt="cpp" />
+					{% elseif type == "bash" %}
+						<img src="images/devicons/bash-original.svg" alt="cpp" />
+					{% elseif type == "c" %}
+						<img src="images/devicons/c-original.svg" alt="cpp" />
+					{% endif %}		
+				{% endfor %}	
+								
 			</div>
 		
 			<p class="project-short-desc" >{{ project.short_desc }}</p>

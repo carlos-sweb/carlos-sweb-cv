@@ -4,7 +4,7 @@
   short_desc : Pequeña libreria para validación.
   long_desc : Una pequeña herramienta para validaciones simples y cotidianas. Inspirada en la famosa librería "lodash" pero solo con las funciones mas usadas y extensible con una funcion para "done" y "reject".
   tags: [isArray,isBoolean,isDate,isFunction,isNull,isNumber,isObject,isString,isUndefined,isElement,isEmpty,isEmail,isNaN,isRegExp,isUrl,isHTMLCollection,isNodeList,isBlank,isPromise,isNil]
-  type: js
+  type: [js]
   btn_text: Ver proyecto
 - name : pp-events
   version : 1.3.3
@@ -12,7 +12,7 @@
   short_desc : Simple gestor de eventos de Javascript.
   long_desc : Una biblioteca ligera y eficiente para la gestión de eventos en JavaScript, diseñada para simplificar la manera en que los desarrolladores manejan la comunicación basada en eventos en sus aplicaciones web.Permite crear, gestionar y disparar eventos personalizados de manera sencilla y eficiente.
   tags : [ events, javascript , emiter]  
-  type: js
+  type: [js]
   btn_text: Ver proyecto
 - name : pp-validate
   version : 1.0.1
@@ -20,7 +20,7 @@
   short_desc : Librería JavaScript para validación de datos con reglas personalizables y sintaxis simple.
   long_desc : Una Librería JavaScript liviana y flexible para validación de datos. Ofrece un conjunto completo de reglas predefinidas para validar tipos numéricos, patrones, cadenas de texto y valores booleanos. Su API intuitiva permite validar objetos contra reglas personalizadas, ideal para formularios web y validación de datos en general.
   tags : [ validate ]  
-  type: js
+  type: [js]
   btn_text: Ver proyecto
 - name : pp-model.js
   version : 
@@ -28,7 +28,7 @@
   short_desc : Los modelos son el corazón de cualquier aplicación Javascript.
   long_desc : Una biblioteca JavaScript liviana y potente que proporciona una estructura robusta para el manejo de datos en aplicaciones web modernas. Con un sistema integrado de eventos y validación, permite rastrear y reaccionar a cambios en tiempo real, implementar validaciones personalizadas y manipular datos estructurados de forma eficiente. La biblioteca ofrece una API intuitiva que incluye verificación de tipos, manipulación de estados y soporte para reglas de validación avanzadas, haciéndola ideal tanto para proyectos pequeños como para aplicaciones empresariales complejas que requieren una gestión de estado confiable y estructurada.
   tags : [ model , data-model , data ]  
-  type: js
+  type: [js]
   btn_text: Ver proyecto
 - name : pp-rut
   version : 1.0.3
@@ -36,7 +36,7 @@
   short_desc : Analiza de forma rapida y sencilla los R.U.T chilenos
   long_desc : Una herramienta simple para verificar el dígito de un R.U.T chileno , este dígito se verifica través de un calculo matemático muy sencillo llamado Modulo 11.
   tags : [ rut , chilean rut ]
-  type: js
+  type: [js]
   btn_text: Ver proyecto
 - name : librut
   version : 1.0.0
@@ -44,5 +44,13 @@
   short_desc : Analiza de forma rapida y sencilla los R.U.T chilenos
   long_desc : Una Aplicación de consola sencilla para verificar el dígito del R.U.T  chileno. Además incluye "librut.h" para  agregar esta funcionalidad a tu proyecto personalizado. 
   tags : [ rut , cpp , c++ , chilean rut]
-  type: cpp
+  type: [bash,cpp]
   btn_text: Ver proyecto
+- name : c_print
+  version : 0.5.0
+  link : https://github.com/carlos-sweb/c_print
+  short_desc :  Biblioteca de impresión de texto en color para C
+  long_desc : c_print es una librería de C que proporciona un sistema intuitivo y potente para imprimir texto con colores en la terminal usando códigos ANSI. Cuenta con una sintaxis flexible basada en patrones similar a los format strings de Python, con soporte para colores de texto, colores de fondo, estilos de texto y alineación de texto.
+  tags : [ c , print , colored ]
+  type: [c]
+  btn_text: Ver Proyecto
