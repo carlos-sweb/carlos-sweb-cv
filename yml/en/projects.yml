@@ -7,7 +7,7 @@
   type: [js]
   btn_text: See Project
 - name : pp-events
-  version : 1.3.3
+  version : 1.3.4
   link : https://github.com/carlos-sweb/pp-events
   short_desc : Simple manager events of Javascript.
   long_desc : A lightweight and efficient JavaScript event handling library designed to simplify the way developers handle event-based communication in their web applications.Allows you to create, manage and fire custom events easily and efficiently.
@@ -53,4 +53,12 @@
   long_desc : c_print is a C library that provides an intuitive and powerful system for printing colored text in the terminal using ANSI codes. It features a flexible pattern-based syntax similar to Python's format strings, with support for text colors, background colors, text styles, and text alignment.
   tags : [ c , print , colored ]
   type: [c]
+  btn_text: See Project
+- name : zig-pug
+  version : 0.3.0
+  link : https://github.com/carlos-sweb/zig-pug
+  short_desc : A high-performance template engine inspired by Pug
+  long_desc : "Development of a Pug to HTML template compiler, built from scratch using the Zig systems language. It integrates the mujs runtime (ES5.1) for fast and secure processing of dynamic logic and JSON variables within templates."
+  tags : [ zig , pug , addon , cli , lib ]
+  type: [bash,zig]
   btn_text: See Project
