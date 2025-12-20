@@ -7,8 +7,11 @@
   },
   "config": {
     "prefix": "public"
-  },  
+  },
   "author": "carlos-sweb",
   "license": "MIT",
-  "description": ""  
+  "description": "",
+  "dependencies": {
+    "zig-pug": "^0.3.8"
+  }
 }

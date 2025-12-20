@@ -1,0 +1,18 @@
+main.c
+  div.c-left
+    figure
+      img(alt="profile" draggable="false" src="images/carlos-sweb-profile.webp")
+      h3 #{titles.title_left1}
+      h3 #{titles.title_left2}
+      div
+        img(alt="id-telegram" src="images/telegram-svgrepo-com.svg")
+        span cillesca
+      div#mailto
+        img(alt="id-mail" src="images/mail.svg")
+        span #{"@cillesca"}
+        h3 #{titles.title_left3}
+        each skill in skills
+          h3 hola #{skill}
+footer.f
+  img#img-git(src="images/devicons/github-original.svg" alt="")
+  img#img-npm(src="images/devicons/npm-original-wordmark.svg" alt="")
