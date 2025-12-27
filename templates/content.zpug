@@ -1,18 +1,42 @@
 main.c
-  div.c-left
+  .c-left
     figure
       img(alt="profile" draggable="false" src="images/carlos-sweb-profile.webp")
       h3 #{titles.title_left1}
       h3 #{titles.title_left2}
       div
         img(alt="id-telegram" src="images/telegram-svgrepo-com.svg")
-        span cillesca
-      div#mailto
+        span @cillesca
+      #mailto
         img(alt="id-mail" src="images/mail.svg")
-        span #{"@cillesca"}
+        span @cillesca
         h3 #{titles.title_left3}
         each skill in skills
-          h3 hola #{skill}
+          div
+            img(alt="image-skill-"+skill.name,src="images/devicons/"+skill.icon)
+            span= skill.name
+            each item in skill.items
+              div
+                img(alt="image-skill-"+item.name,src="images/devicons/"+item.icon)
+                span= item.name
+        .c-right#details
+          h1 Carlos Enrique Illesca Monsalve
+          div
+            button#btnlang(data-href="es.html#details")
+            img(src="images/es.svg",alt="lang-spanish")
+            span(lang="es") Leer en Español
+            img(src="images/chevrons-right.svg")
+          div
+            p #{titles.title_project} :
+          div(style="justify-content: flex-start;")
+            each project in projects
+              .shadow.project-container-items
+                .project-name
+                  p= project.name
+                  p= project.version
+                  case project.type
+                    when "js"
+                      img(src="images/devicons/javascript-original.svg" ,alt="js")
 footer.f
   img#img-git(src="images/devicons/github-original.svg" alt="")
   img#img-npm(src="images/devicons/npm-original-wordmark.svg" alt="")

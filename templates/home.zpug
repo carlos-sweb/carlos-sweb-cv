@@ -1,5 +1,5 @@
 doctype html
-html(lang="en" translate="no")
+html(lang=lang translate="no")
   head
     link(rel="icon" type="image/png" href="/favicon.png")
     meta(charset="UTF-8")

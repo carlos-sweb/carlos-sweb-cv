@@ -1,0 +1,4 @@
+// Esto no funciona
+img(alt="image-skill-"+skill.name src="images/devicons/"+skill.icon)
+// Esto si
+img(alt="image-skill-"+skill.name,src="images/devicons/"+skill.icon)

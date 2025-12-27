@@ -1,17 +1,17 @@
 {
   "name": "carlos-sweb-cv",
   "version": "1.0.0",
+  "author": "carlos-sweb",
+  "config": {
+    "prefix": "public"
+  },
+  "description": "",
+  "license": "MIT",
   "scripts": {
     "preinstall": "mkdir -p public/node_modules",
     "install": "npm install --prefix public"
   },
-  "config": {
-    "prefix": "public"
-  },
-  "author": "carlos-sweb",
-  "license": "MIT",
-  "description": "",
   "dependencies": {
-    "zig-pug": "^0.3.8"
+    "zig-pug": "^4.0.3"
   }
 }
