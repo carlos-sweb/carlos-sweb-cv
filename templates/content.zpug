@@ -37,6 +37,19 @@ main.c
                   case project.type
                     when "js"
                       img(src="images/devicons/javascript-original.svg" ,alt="js")
+                    when "js"
+                      img(src="images/devicons/cplusplus-original.svg" ,alt="cpp")
+                    when "bash"
+                      img(src="images/devicons/bash-original.svg",alt="cpp")
+                    when "c"
+                      img(src="images/devicons/c-original.svg",alt="c")
+                    when "zig"
+                      img(src="images/devicons/zig-original.svg",alt="zig")
+            p.project-short-desc= project.short_desc
+            p.project-long-desc= project.long_desc
+            p.project-tag-container
+              each tag in project.tags
+                span.project-tag= tag
 footer.f
   img#img-git(src="images/devicons/github-original.svg" alt="")
   img#img-npm(src="images/devicons/npm-original-wordmark.svg" alt="")

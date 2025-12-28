@@ -5,7 +5,7 @@
     "": {
       "name": "carlos-sweb-cv",
       "dependencies": {
-        "zig-pug": "^4.0.3",
+        "zig-pug": "^4.0.4",
       },
     },
   },
@@ -172,7 +172,7 @@
 
     "yallist": ["yallist@4.0.0", "", {}, "sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A=="],
 
-    "zig-pug": ["zig-pug@4.0.3", "", { "dependencies": { "node-gyp": "^10.0.0" } }, "sha512-lwUqL0sOduEzRt8eqY8d9/r/JBp6Mq1VEADtRB+7EOvH6DCdr0JPxdjcQ8C7txIOnCAwfbBCudl+HlElkK+gfg=="],
+    "zig-pug": ["zig-pug@4.0.4", "", { "dependencies": { "node-gyp": "^10.0.0" } }, "sha512-qgZiaCGgy5SOngH7HkX4xUedvJSDHyWso0Cd1N1Mx30XcPV9xFt0lH8sl3CXXv92xVmPSabwtr9lFZEmX+X+sw=="],
 
     "cacache/fs-minipass": ["fs-minipass@3.0.3", "", { "dependencies": { "minipass": "^7.0.3" } }, "sha512-XUBA9XClHbnJWSfBzjkm6RvPsyg3sryZt06BEQoXcF7EK/xpGaQYJgQKDJSUH5SGZ76Y7pFx1QBnXz09rU5Fbw=="],
 
