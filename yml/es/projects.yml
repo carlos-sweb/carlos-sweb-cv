@@ -55,7 +55,7 @@
   type: [c]
   btn_text: Ver Proyecto
 - name : zig-pug
-  version : 0.3.0
+  version : 4.1.2
   link : https://github.com/carlos-sweb/zig-pug
   short_desc : Un motor de plantillas de alto rendimiento inspirado en Pug. 
   long_desc : "Desarrollo de un compilador de plantillas Pug a HTML, construido desde cero utilizando el lenguaje de sistemas Zig. Integra el runtime mujs (ES5.1) para el procesamiento rápido y seguro de lógica dinámica y variables JSON dentro de las plantillas."
