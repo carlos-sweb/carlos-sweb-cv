@@ -10,10 +10,9 @@ titles      = YAML.parse(await Bun.file("yml/en/titles.yml").text()),
 employments = YAML.parse(await Bun.file("yml/en/employments.yml").text()),
 education = YAML.parse(await Bun.file("yml/en/education.yml").text())
 
-    
 
-// Using PugCompiler class
-const compiler: PugCompiler = new PugCompiler();
+
+const compiler: PugCompiler = new PugCompiler({ pretty:true });
 compiler
     .setString("lang","en") 
     .setArray("links",links)
@@ -22,7 +21,10 @@ compiler
     .setArray('skills',skills)
     .setArray('projects',projects)
 
+
+
 const result: string = compiler.compile( await Bun.file("templates/home.zpug").text() );
 
-console.log(result)
+
+await Bun.write("public/zpug.html",result)
 

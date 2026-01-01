@@ -2,54 +2,60 @@ main.c
   .c-left
     figure
       img(alt="profile" draggable="false" src="images/carlos-sweb-profile.webp")
-      h3 #{titles.title_left1}
-      h3 #{titles.title_left2}
+    h3 #{titles.title_left1}
+    h3 #{titles.title_left2}
+    div
+      img(alt="id-telegram" src="images/telegram-svgrepo-com.svg")
+      span @cillesca
+    #mailto
+      img(alt="id-mail" src="images/mail.svg")
+      span @cillesca
+    h3 #{titles.title_left3}
+    each skill in skills
       div
-        img(alt="id-telegram" src="images/telegram-svgrepo-com.svg")
-        span @cillesca
-      #mailto
-        img(alt="id-mail" src="images/mail.svg")
-        span @cillesca
-        h3 #{titles.title_left3}
-        each skill in skills
-          div
-            img(alt="image-skill-"+skill.name,src="images/devicons/"+skill.icon)
-            span= skill.name
-            each item in skill.items
-              div
-                img(alt="image-skill-"+item.name,src="images/devicons/"+item.icon)
-                span= item.name
-        .c-right#details
-          h1 Carlos Enrique Illesca Monsalve
-          div
-            button#btnlang(data-href="es.html#details")
-            img(src="images/es.svg",alt="lang-spanish")
-            span(lang="es") Leer en Español
-            img(src="images/chevrons-right.svg")
-          div
-            p #{titles.title_project} :
-          div(style="justify-content: flex-start;")
-            each project in projects
-              .shadow.project-container-items
-                .project-name
-                  p= project.name
-                  p= project.version
-                  case project.type
-                    when "js"
-                      img(src="images/devicons/javascript-original.svg" ,alt="js")
-                    when "js"
-                      img(src="images/devicons/cplusplus-original.svg" ,alt="cpp")
-                    when "bash"
-                      img(src="images/devicons/bash-original.svg",alt="cpp")
-                    when "c"
-                      img(src="images/devicons/c-original.svg",alt="c")
-                    when "zig"
-                      img(src="images/devicons/zig-original.svg",alt="zig")
-            p.project-short-desc= project.short_desc
-            p.project-long-desc= project.long_desc
-            p.project-tag-container
-              each tag in project.tags
-                span.project-tag= tag
+        img(alt="image-skill-"+skill.name,src="images/devicons/"+skill.icon)
+        span= skill.name
+        if skill.hasOwnProperty("items")
+          each item in skill.items              
+            div
+              img(alt="image-skill-"+item.name,src="images/devicons/"+item.icon,style="width:24px;height:24px;")
+              span= item.name
+  .c-right#details
+    h1 Carlos Enrique Illesca Monsalve
+    div
+      button#btnlang(data-href="es.html#details")
+        img(src="images/es.svg",alt="lang-spanish")
+        span(lang="es") Leer en Español
+        img(src="images/chevrons-right.svg")
+    div
+      p #{titles.title_project}:
+    div(style="justify-content: flex-start;")
+      each project in projects
+        .shadow.project-container-items
+          .project-name
+            p= project.name
+            p #{project.version}&nbsp;&nbsp;&nbsp;
+            case project.type
+              when "js"
+                img(src="images/devicons/javascript-original.svg" ,alt="js")
+              when "js"
+                img(src="images/devicons/cplusplus-original.svg" ,alt="cpp")
+              when "bash"
+                img(src="images/devicons/bash-original.svg",alt="cpp")
+              when "c"
+                img(src="images/devicons/c-original.svg",alt="c")
+              when "zig"
+                img(src="images/devicons/zig-original.svg",alt="zig")
+          p.project-short-desc= project.short_desc
+          p.project-long-desc= project.long_desc
+          p.project-tag-container
+            each tag in project.tags
+              span.project-tag= tag
+          p.project-link-container
+            if project.hasOwnProperty("link")
+              a.project-btn(target="_blank",href=project.link)
+                span #{project.btn_text}&nbsp
+                img(src="images/external-link.svg",alt="link")
 footer.f
   img#img-git(src="images/devicons/github-original.svg" alt="")
   img#img-npm(src="images/devicons/npm-original-wordmark.svg" alt="")

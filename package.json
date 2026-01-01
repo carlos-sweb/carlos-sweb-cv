@@ -12,6 +12,6 @@
     "install": "npm install --prefix public"
   },
   "dependencies": {
-    "zig-pug": "^4.0.4"
+    "zig-pug": "^4.1.1"
   }
 }
