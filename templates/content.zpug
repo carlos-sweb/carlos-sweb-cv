@@ -9,7 +9,7 @@ main.c
       span @cillesca
     #mailto
       img(alt="id-mail" src="images/mail.svg")
-      span @cillesca
+      span c4rl0sill3sc4
     h3 #{titles.title_left3}
     each skill in skills
       div
@@ -18,15 +18,22 @@ main.c
         if skill.hasOwnProperty("items")
           each item in skill.items              
             div
-              img(alt="image-skill-"+item.name,src="images/devicons/"+item.icon,style="width:24px;height:24px;")
+              img(alt="image-skill-"+item.name,src="images/devicons/"+item.icon)
               span= item.name
   .c-right#details
     h1 Carlos Enrique Illesca Monsalve
     div
-      button#btnlang(data-href="es.html#details")
-        img(src="images/es.svg",alt="lang-spanish")
-        span(lang="es") Leer en Español
-        img(src="images/chevrons-right.svg")
+      case lang
+        when "es"
+          button#btnlang(data-href="index.html#details")
+            img(src="images/en.svg",alt="lang-english")
+            span(lang="en") Read in English
+            img(src="images/chevrons-right.svg")
+        when "en"
+          button#btnlang(data-href="es.html#details")
+            img(src="images/es.svg",alt="lang-spanish")
+            span(lang="es") Leer en Español
+            img(src="images/chevrons-right.svg")
     div
       p #{titles.title_project}:
     div(style="justify-content: flex-start;")
@@ -34,18 +41,21 @@ main.c
         .shadow.project-container-items
           .project-name
             p= project.name
-            p #{project.version}&nbsp;&nbsp;&nbsp;
-            case project.type
-              when "js"
-                img(src="images/devicons/javascript-original.svg" ,alt="js")
-              when "js"
-                img(src="images/devicons/cplusplus-original.svg" ,alt="cpp")
-              when "bash"
-                img(src="images/devicons/bash-original.svg",alt="cpp")
-              when "c"
-                img(src="images/devicons/c-original.svg",alt="c")
-              when "zig"
-                img(src="images/devicons/zig-original.svg",alt="zig")
+            p #{project.version}
+            each type in project.type
+              case type
+                when "js"
+                  img(src="images/devicons/javascript-original.svg" ,alt="js")
+                when "js"
+                  img(src="images/devicons/cplusplus-original.svg" ,alt="cpp")
+                when "bash"
+                  img(src="images/devicons/bash-original.svg",alt="cpp")
+                when "c"
+                  img(src="images/devicons/c-original.svg",alt="c")
+                when "zig"
+                  img(src="images/devicons/zig-original.svg",alt="zig")
+                when "cpp"
+                  img(src="images/devicons/cplusplus-original.svg",alt="zig")
           p.project-short-desc= project.short_desc
           p.project-long-desc= project.long_desc
           p.project-tag-container
@@ -54,7 +64,7 @@ main.c
           p.project-link-container
             if project.hasOwnProperty("link")
               a.project-btn(target="_blank",href=project.link)
-                span #{project.btn_text}&nbsp
+                span #{project.btn_text}
                 img(src="images/external-link.svg",alt="link")
 footer.f
   img#img-git(src="images/devicons/github-original.svg" alt="")

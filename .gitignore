@@ -2,3 +2,7 @@
 /node_modules/
 /templates/compilation_cache/
 /public/index.php
+
+## Panda
+styled-system
+styled-system-studio

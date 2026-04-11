@@ -23,7 +23,7 @@
   type: [js]
   btn_text: Ver proyecto
 - name : pp-model.js
-  version : 
+  version : 1.2.7
   link : https://github.com/carlos-sweb/pp-model
   short_desc : Los modelos son el corazón de cualquier aplicación Javascript.
   long_desc : Una biblioteca JavaScript liviana y potente que proporciona una estructura robusta para el manejo de datos en aplicaciones web modernas. Con un sistema integrado de eventos y validación, permite rastrear y reaccionar a cambios en tiempo real, implementar validaciones personalizadas y manipular datos estructurados de forma eficiente. La biblioteca ofrece una API intuitiva que incluye verificación de tipos, manipulación de estados y soporte para reglas de validación avanzadas, haciéndola ideal tanto para proyectos pequeños como para aplicaciones empresariales complejas que requieren una gestión de estado confiable y estructurada.

@@ -23,7 +23,7 @@
   type: [js]
   btn_text: See Project
 - name : pp-model.js
-  version:
+  version: 1.2.7
   link : https://github.com/carlos-sweb/pp-model
   short_desc : Models are the heart of any JavaScript application.
   long_desc : A lightweight and powerful JavaScript library that provides a robust framework for handling data in modern web applications. With an integrated event and validation system, it allows you to track and react to changes in real time, implement custom validations and manipulate structured data efficiently. The library offers an intuitive API that includes type checking, state manipulation and support for advanced validation rules, making it ideal for both small projects and complex enterprise applications that require reliable and structured state management. 

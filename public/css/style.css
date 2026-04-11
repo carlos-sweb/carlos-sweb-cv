@@ -45,6 +45,10 @@
     padding-top:50px;
     padding-bottom:50px;    
   }
+  .c-left >div >img,.c-left >div > div >img{
+    width: 24px;
+    height: 24px;
+  }
   @media screen and ( min-width:0px) and (max-width:639px){
     .c{
       flex-direction: column;
@@ -88,13 +92,26 @@
 
   }
   .c-left > div{    
-    width: 100%;        
+    width: 100%;
     padding-top:6px;
     padding-bottom: 6px;
-    display: flex;
+    display: block;
+    
+  }
+  .c-left > div >div{    
+    width: 100%;        
+    padding-top:8px;    
     flex-direction: row;
     justify-content:start;    
     align-items: center;      
+    
+    
+  }
+  .c-left > div >div>img:nth-child(1){
+    margin-left:35px;
+  }
+  .c-left > div >div>span:nth-child(2){
+    margin-left:20px;
   }
 
   img:where(
@@ -298,6 +315,9 @@
     .project-btn:visited{
       color:none;
     }
+    .project-btn >span{
+      padding-right:15px;
+    }
 
     .project-long-desc{
       margin-left:10px;
@@ -343,6 +363,7 @@
     .project-name>p:nth-child(2){
       font-size:16px;
       margin-top:27px;
+      padding-right:12px;
     }
     .project-container{
       display:flex;
@@ -365,4 +386,6 @@
       align-items:stretch;
     }        
     
+
+
     /* cleancss -o style.min.css style.css */
