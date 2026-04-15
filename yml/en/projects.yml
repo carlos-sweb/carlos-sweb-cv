@@ -62,3 +62,11 @@
   tags : [ zig , pug , addon , cli , lib ]
   type: [bash,zig]
   btn_text: See Project
+- name : lucide-mithril
+  version : 1.0.1
+  link : https://github.com/carlos-sweb/lucide-mithril
+  short_desc : Lucide Icons in Mithril
+  long_desc : "We automatically generate Mithril components using the icons from the popular Lucide library. It was a bit frustrating to realize that Lucide only supports popular frameworks like Vue and React."
+  tags : [ svg , components , lucide , mithril ]
+  type: [js]
+  btn_text: See Project

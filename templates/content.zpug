@@ -55,7 +55,7 @@ main.c
                 when "zig"
                   img(src="images/devicons/zig-original.svg",alt="zig")
                 when "cpp"
-                  img(src="images/devicons/cplusplus-original.svg",alt="zig")
+                  img(src="images/devicons/cplusplus-original.svg",alt="zig")                
           p.project-short-desc= project.short_desc
           p.project-long-desc= project.long_desc
           p.project-tag-container
