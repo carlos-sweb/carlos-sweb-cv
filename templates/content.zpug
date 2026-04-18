@@ -1,16 +1,21 @@
-main.c
+mixin buttonLang(href,lang,alt,text)
+    button#btnlang(data-href=href)
+        img(src="images/"+lang+".svg",alt=alt)
+        span(lang=lang)=text
+        img(src="images/chevrons-right.svg")
+main.c  
   .c-left
     figure
       img(alt="profile" draggable="false" src="images/carlos-sweb-profile.webp")
-    h3 #{titles.title_left1}
-    h3 #{titles.title_left2}
+    h3=titles.title_left1
+    h3=titles.title_left2
     div
       img(alt="id-telegram" src="images/telegram-svgrepo-com.svg")
       span @cillesca
     #mailto
       img(alt="id-mail" src="images/mail.svg")
       span c4rl0sill3sc4
-    h3 #{titles.title_left3}
+    h3=titles.title_left3
     each skill in skills
       div
         img(alt="image-skill-"+skill.name,src="images/devicons/"+skill.icon)
@@ -25,15 +30,9 @@ main.c
     div
       case lang
         when "es"
-          button#btnlang(data-href="index.html#details")
-            img(src="images/en.svg",alt="lang-english")
-            span(lang="en") Read in English
-            img(src="images/chevrons-right.svg")
+          +buttonLang("index.html#details","en","lang-english","Read in English")
         when "en"
-          button#btnlang(data-href="es.html#details")
-            img(src="images/es.svg",alt="lang-spanish")
-            span(lang="es") Leer en Español
-            img(src="images/chevrons-right.svg")
+          +buttonLang("es.html#details","es","lang-spanish","Leer en Español")
     div
       p #{titles.title_project}:
     div(style="justify-content: flex-start;")
